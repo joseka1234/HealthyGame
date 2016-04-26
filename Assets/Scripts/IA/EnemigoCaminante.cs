@@ -1,7 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
-using System.Threading;
-using System.Collections.Generic;
 
 namespace AssemblyCSharp
 {
@@ -12,12 +9,20 @@ namespace AssemblyCSharp
 		public override void Movimiento ()
 		{
 			Rigidbody2D body = GetComponent<Rigidbody2D> ();
-			body.velocity = new Vector2 (-speed, body.velocity.y);
+			body.velocity = new Vector2 (speed, body.velocity.y);
 		}
 
 		public override void RecibeGolpe ()
 		{
-			// TODO: Implementar el knockback y tal
+			if (!estadoInvencibilidad) {
+				StartCoroutine (EstadoInvencible ());
+				vidas--;
+			}
+			if (golpePorLaDerecha && MoviendoHaciaDerecha ()) {
+				speed = -speed;
+			} else if (!golpePorLaDerecha && !MoviendoHaciaDerecha ()) {
+				speed = -speed;
+			}
 		}
 
 		void OnTriggerEnter2D (Collider2D other)
@@ -25,6 +30,16 @@ namespace AssemblyCSharp
 			if (other.tag == "Suelo") {
 				speed = -speed;
 			}
+			if (other.tag == "Bala") {
+				golpePorLaDerecha |= other.transform.position.x > transform.position.x;
+				RecibeGolpe ();
+				Destroy (other.gameObject);
+			}
+		}
+
+		private bool MoviendoHaciaDerecha ()
+		{
+			return speed > 0;
 		}
 	}
 }

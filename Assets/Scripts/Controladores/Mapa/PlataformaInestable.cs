@@ -11,10 +11,13 @@ public class PlataformaInestable : MonoBehaviour
 
 	private bool callendo { get; set; }
 
+	private Vector3 posicionInicio { get; set; }
+
 	void Start ()
 	{
 		pisada = false;
-
+		callendo = false;
+		posicionInicio = transform.position;
 	}
 
 	void Update ()
@@ -26,9 +29,24 @@ public class PlataformaInestable : MonoBehaviour
 		} else {
 			if (callendo) {
 				if (Time.time - tiempoComienzo >= tiempoAguante * 5) {
-					Destroy (gameObject);
+					Resetear ();
 				}
 			}
+		}
+	}
+
+	public void Resetear ()
+	{
+		callendo = false;
+		gameObject.SetActive (false);
+		transform.position = posicionInicio;
+
+		Rigidbody2D cuerpo = GetComponent<Rigidbody2D> ();
+		cuerpo.gravityScale = 0;
+		cuerpo.constraints = RigidbodyConstraints2D.FreezeAll;
+		foreach (BoxCollider2D cajaCollider in GetComponents<BoxCollider2D>()) {
+			cajaCollider.isTrigger = false;
+			break;
 		}
 	}
 
@@ -51,7 +69,6 @@ public class PlataformaInestable : MonoBehaviour
 		if (other.tag == "Player") {
 			tiempoComienzo = Time.time;
 			pisada = true;
-			Debug.Log ("Chivato");
 		}
 	}
 }

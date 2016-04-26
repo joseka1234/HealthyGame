@@ -1,52 +1,69 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System.Security.Cryptography;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-// TODO: Añadir la vida y el restado de vidas
-// TODO: Añadir el contador de coleccionables
 
+// TODO: Problema de las paredes (Parcialmente solucionado, ahora resbala poco a poco, se podría poner una animación y lehto!)
 namespace AssemblyCSharp
 {
 	public class PlayerController : MonoBehaviour
 	{
+		private const float EPSILON = 0.01f;
+
 		public const string WALKING = "Walking";
 		public const string GROUNDED = "Grounded";
 		public const string DISPARAR = "Disparar";
 		public const string BALAS = "GameScene/Balas";
 		public const string TEXTO_GUI = "GameScene/UI/TextBox";
+		public const string HUD = "GameScene/UI/HUD";
+		public const string PLAYER = "GameScene/Player";
 
 		public float velocidad = 10f;
 		public float fuerzaSalto = 10f;
 		public float gravedad = 20f;
 		public float agarre = 5f;
-		public float distanciaDisparo = 10f;
-		public int vidas = 3;
+		public float tiempoInvencibilidad = 1f;
+		public float distanciaKnockBack = 0.2f;
 
-		public GameObject prefabBala;
+		public int vidas = 3;
+		public int puntuacion = 0;
+
+		public static bool face;
+		public static bool enSuelo;
+
 
 		private Animator animaciones { get; set; }
 
-		private bool controlesActivados { get; set; }
-
 		private Rigidbody2D body { get; set; }
-
-		public static bool face { get; set; }
-
-		private bool cajaTextoAbierta { get; set; }
 
 		private ControladorTexto controladorDeTexto { get; set; }
 
 		private List<string> textosAMostrar;
 
-		public LayerMask layerSuelo;
+		private static bool invencible { get; set; }
+
+		private static bool recibiendoGolpe { get; set; }
 
 		private bool frenteAEscalera { get; set; }
+
+		private bool cajaTextoAbierta { get; set; }
+
+		private bool muerto { get; set; }
+
+		private bool controlesActivados { get; set; }
+
+		private float tiempoKnockBack { get; set; }
+
+		private bool golpePorLaDerecha { get; set; }
 
 		// Use this for initialization
 		void Start ()
 		{
+			enSuelo = true;
+			invencible = false;
+			muerto = false;
 			animaciones = GetComponent<Animator> ();
 			body = GetComponent<Rigidbody2D> ();
 			textosAMostrar = new List<string> ();
@@ -61,6 +78,19 @@ namespace AssemblyCSharp
 		// Update is called once per frame
 		void FixedUpdate ()
 		{
+
+			if (enSuelo) {
+				animaciones.SetBool (GROUNDED, true);
+			} else {
+				animaciones.SetBool (GROUNDED, false);
+			}
+
+			if (vidas <= 0) {
+				Morir ();
+			}
+
+			GameObject.Find (HUD + "/Puntuacion").GetComponentInChildren<Text> ().text = puntuacion.ToString ();
+
 			ControlPersonaje ();
 			CompruebaBalas ();
 		}
@@ -112,37 +142,66 @@ namespace AssemblyCSharp
 		/// </summary>
 		private void ControlPersonaje ()
 		{
+
+			// TODO: Mirar si se ha arreglado el recibir el golpe
+			if (recibiendoGolpe) {
+				if (controlesActivados) {
+					tiempoKnockBack = Time.time;
+					controlesActivados = false;
+					SetIDLE ();
+				}
+				if (Time.time - tiempoKnockBack < tiempoInvencibilidad / 10) {
+					if (golpePorLaDerecha) {
+						if (face) {
+							transform.Translate (Vector3.left * distanciaKnockBack);
+						} else {
+							transform.Translate (Vector3.left * -distanciaKnockBack);
+						}
+					} else {
+						if (face) {
+							transform.Translate (Vector3.right * distanciaKnockBack);
+						} else {
+							transform.Translate (Vector3.right * -distanciaKnockBack);
+						}
+
+					}
+				} else {
+					recibiendoGolpe = false;
+					controlesActivados = true;
+				}
+			}
 			// Controles de gameplay
-			if (controlesActivados) {
-				if (Input.GetKey (KeyCode.A)) {
+			// TODO: Arreglar el problema con quedarse pegado a las paredes
+			if (controlesActivados && !muerto) {
+				if (Input.GetKey (KeyCode.A) || Input.GetKey (KeyCode.LeftArrow)) {
+					if (Atascado () && !face) {
+						return;
+					}
 					CaminarIzquierda ();
-				} else if (Input.GetKey (KeyCode.D)) {
+				} else if (Input.GetKey (KeyCode.D) || Input.GetKey (KeyCode.RightArrow)) {
+					if (Atascado () && face) {
+						return;
+					}
 					CaminarDerecha ();
 				} else {
 					animaciones.SetBool (WALKING, false);
 				}
-				if (Input.GetKey (KeyCode.W)) {
+				if (Input.GetKey (KeyCode.W) || Input.GetKey (KeyCode.UpArrow)) {
 					if (frenteAEscalera) {
 						SubirEscalera ();
 					} else {
-						if (EstaEnSuelo ()) {
+						if (enSuelo) {
 							Saltar ();
 						}
 					}
 				}
-				if (Input.GetKey (KeyCode.S)) {
+				if (Input.GetKey (KeyCode.S) || Input.GetKey (KeyCode.DownArrow)) {
 					if (frenteAEscalera) {
 						BajarEscalera ();
 					}
 				}
-				if (Input.GetKeyDown (KeyCode.J)) {
+				if (Input.GetKeyDown (KeyCode.J) || Input.GetKey (KeyCode.Space)) {
 					animaciones.SetBool (DISPARAR, true);
-				}
-				if (Input.GetKeyDown (KeyCode.R)) {
-					Respawn ();
-				}
-				if (EstaEnSuelo ()) {
-					animaciones.SetBool (GROUNDED, true);
 				}
 			}
 			// Controles externos a gameplay
@@ -155,6 +214,15 @@ namespace AssemblyCSharp
 					MostrarTexto ();
 				}
 			}
+			if (Input.GetKeyDown (KeyCode.R) && muerto) {
+				// TODO: Arreglar problema con el reseteo de las plataformas que se caen.
+				SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+			}
+		}
+
+		private bool Atascado ()
+		{
+			return !enSuelo && (System.Math.Abs (body.velocity.y) < EPSILON);
 		}
 
 		private void SubirEscalera ()
@@ -169,7 +237,22 @@ namespace AssemblyCSharp
 
 		private void Respawn ()
 		{
+			ActivarPlataformasInestables ();
 			transform.position = GameObject.Find ("GameScene/Mapa/Respawn").transform.position;
+		}
+
+		private void ActivarPlataformasInestables ()
+		{
+			GameObject suelo = GameObject.Find ("GameScene/Mapa/Suelo");
+			int hijos = suelo.transform.childCount;
+			Transform hijo;
+			for (int i = 0; i < hijos; i++) {
+				hijo = suelo.transform.GetChild (i);
+				if (hijo.GetComponent<PlataformaInestable> () != null && !hijo.gameObject.activeSelf) {
+					hijo.GetComponent<PlataformaInestable> ().Resetear ();
+					hijo.gameObject.SetActive (true);
+				}
+			}
 		}
 
 		/// <summary>
@@ -213,7 +296,6 @@ namespace AssemblyCSharp
 		/// </summary>
 		private void Saltar ()
 		{
-			animaciones.SetBool (GROUNDED, false);
 			body.velocity = new Vector2 (body.velocity.x, fuerzaSalto);
 		}
 
@@ -225,10 +307,34 @@ namespace AssemblyCSharp
 			objeto.transform.Rotate (new Vector2 (0, 180));
 		}
 
-		/// <summary>
-		/// Lanza el muestreo de las cajas de texto con las que choquemos
-		/// </summary>
-		/// <param name="other">Other.</param>
+		private void Morir ()
+		{
+			muerto = true;
+			MostrarGameOver ();
+		}
+
+		private void MostrarGameOver ()
+		{
+			GameObject gameOver = GameObject.Find ("GameScene/UI/FondoNegro");
+			gameOver.SetActive (true);
+			StartCoroutine (FuncionesComunes.DesplazarInterfaz (gameOver, Vector3.zero, 1000f));
+		}
+
+		private void SetIDLE ()
+		{
+			animaciones.SetBool (WALKING, false);
+			animaciones.SetBool (GROUNDED, true);
+		}
+
+		void OnCollisionEnter2D (Collision2D other)
+		{
+			if (other.collider.tag == "Enemigo" && !invencible) {
+				golpePorLaDerecha |= other.transform.position.x > transform.position.x;
+				RecibeGolpe ();
+				other.collider.GetComponent<Enemigo> ().RecibeGolpe ();
+			}
+		}
+
 		void OnTriggerEnter2D (Collider2D other)
 		{
 			if (other.tag == "TextTrigger") {
@@ -244,12 +350,7 @@ namespace AssemblyCSharp
 				cajaTextoAbierta = true;
 				controlesActivados = false;
 			} else if (other.tag == "Muerte") {
-				Respawn ();
-			} else if (other.tag == "Escalera") {
-				body.gravityScale = 0;
-				frenteAEscalera = true;
-				body.drag = agarre * 3;
-				animaciones.SetBool (GROUNDED, true);
+				Morir ();
 			}
 		}
 
@@ -262,19 +363,31 @@ namespace AssemblyCSharp
 			}
 		}
 
-		private void SetIDLE ()
+		void OnTriggerStay2D (Collider2D other)
 		{
-			animaciones.SetBool (WALKING, false);
-			animaciones.SetBool (GROUNDED, true);
+			if (other.tag == "Escalera") {
+				body.gravityScale = 0;
+				frenteAEscalera = true;
+				body.drag = agarre * 3;
+				animaciones.SetBool (GROUNDED, true);
+			}
 		}
 
-		/// <summary>
-		/// Método que dice si el personaje está en el suelo
-		/// </summary>
-		/// <returns><c>true</c>, if grounded was ised, <c>false</c> otherwise.</returns>
-		private bool EstaEnSuelo ()
+		private void RecibeGolpe ()
 		{
-			return body.velocity.y <= 0.01f && body.velocity.y >= -0.01f;
+			vidas--;
+			StartCoroutine (ActivaDesactivaInvencibilidad ());
+			recibiendoGolpe = true;
+		}
+
+		private IEnumerator ActivaDesactivaInvencibilidad ()
+		{
+			Color colorJugador = GetComponent<SpriteRenderer> ().color;
+			invencible = true;
+			GetComponent<SpriteRenderer> ().color = new Color (colorJugador.r, colorJugador.g, colorJugador.b, 0.5f);
+			yield return new WaitForSeconds (tiempoInvencibilidad);
+			invencible = false;
+			GetComponent<SpriteRenderer> ().color = new Color (colorJugador.r, colorJugador.g, colorJugador.b, 1f);
 		}
 	}
 }
