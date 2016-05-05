@@ -1,15 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Controladores\PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Controladores\Mapa\MoverPlataforma.cs">
     <Files>
-      <File FileName="Assets\Scripts\Controladores\PlayerController.cs" Line="146" Column="57" />
-      <File FileName="Assets\Scripts\IA\EnemigoCaminante.cs" Line="18" Column="42" />
-      <File FileName="Assets\Scripts\IA\Enemigo.cs" Line="20" Column="49" />
-      <File FileName="Assets\Scripts\ModeloDatos\InformacionBala.cs" Line="1" Column="19" />
-      <File FileName="Assets\Scripts\IA\EnemigoEstacionario.cs" Line="80" Column="4" />
-      <File FileName="Assets\Scripts\IA\EnemigoSaltador.cs" Line="32" Column="4" />
-      <File FileName="Assets\Scripts\IA\EnemigoSeguidor.cs" Line="19" Column="4" />
-      <File FileName="Assets\Scripts\IA\EnemigoSeguidorAereo.cs" Line="19" Column="4" />
+      <File FileName="Assets\Scripts\Controladores\PlayerController.cs" Line="236" Column="23" />
+      <File FileName="Assets\Scripts\Controladores\DetectorSuelo.cs" Line="15" Column="61" />
+      <File FileName="Assets\Scripts\Controladores\Mapa\MoverPlataforma.cs" Line="96" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

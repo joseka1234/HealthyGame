@@ -1,22 +1,17 @@
 ﻿using UnityEngine;
 using AssemblyCSharp;
+using System;
 
 public class DetectorSuelo : MonoBehaviour
 {
-	void OnCollisionStay2D (Collision2D coll)
+
+	void OnCollisionEnter2D (Collision2D other)
 	{
-		if (coll.collider.tag == "Suelo") {
-			PlayerController.enSuelo = true;
-		} else {
-			PlayerController.enSuelo = false;
-		}
+		PlayerController.enSuelo |= other.collider.tag == "Suelo";
 	}
 
-	void OnCollisionExit2D (Collision2D coll)
+	void OnCollisionExit2D (Collision2D other)
 	{
-		if (coll.collider.tag == "Suelo") {
-			PlayerController.enSuelo = false;
-		}
+		PlayerController.enSuelo &= other.collider.tag != "Suelo";
 	}
-
 }

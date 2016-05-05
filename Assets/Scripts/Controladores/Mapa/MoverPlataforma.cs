@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using AssemblyCSharp;
 
 public class MoverPlataforma : MonoBehaviour
 {
@@ -10,9 +11,13 @@ public class MoverPlataforma : MonoBehaviour
 	public bool retorno;
 
 	private int posicionActual { get; set; }
+
 	private float tiempoComienzo { get; set; }
+
 	private Vector3 posicionComienzo { get; set; }
+
 	private bool SeProduceCambio { get; set; }
+
 	private Vector3 posicionDestinoActual { get; set; }
 
 
@@ -79,17 +84,20 @@ public class MoverPlataforma : MonoBehaviour
 		tiempoComienzo = Time.time;
 		posicionComienzo = transform.position;
 	}
-		
+
 	void OnTriggerStay2D (Collider2D other)
 	{
-		// Incluímos como hijo de la plataforma a cualquier objeto que se pose sobre ella
-		other.transform.parent = transform;
-	}
-	
-	void OnTriggerExit2D (Collider2D other)
-	{
-		// Excluímos como hijo de la plataforma a cualquier objeto que se separe de ella
-		other.transform.parent = GameObject.Find ("GameScene").transform;
+		if (other.transform.tag == "Player") {
+			other.transform.parent = transform;
+			PlayerController.enSuelo = true;
+		}
 	}
 
+	void OnTriggerExit2D (Collider2D other)
+	{
+		if (other.transform.tag == "Player") {
+			other.transform.parent = GameObject.Find ("GameScene").transform;
+			PlayerController.enSuelo = false;
+		}
+	}
 }

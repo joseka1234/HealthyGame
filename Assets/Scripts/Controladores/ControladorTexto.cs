@@ -1,8 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
-using System.Threading;
-using System.Runtime.ConstrainedExecution;
 
 namespace AssemblyCSharp
 {

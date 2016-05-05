@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="300" height="30" tilewidth="70" tileheight="70" nextobjectid="1">
+ <tileset firstgid="1" name="Tiles" tilewidth="70" tileheight="146" tilecount="172" columns="0">
+  <tile id="0">
+   <image width="70" height="70" source="../Graphics/Tiles/box.png"/>
+  </tile>
+  <tile id="1">
+   <image width="70" height="70" source="../Graphics/Tiles/boxAlt.png"/>
+  </tile>
+  <tile id="2">
+   <image width="70" height="70" source="../Graphics/Tiles/boxCoin.png"/>
+  </tile>
+  <tile id="3">
+   <image width="70" height="70" source="../Graphics/Tiles/boxCoin_disabled.png"/>
+  </tile>
+  <tile id="4">
+   <image width="70" height="70" source="../Graphics/Tiles/boxCoinAlt.png"/>
+  </tile>
+  <tile id="5">
+   <image width="70" height="70" source="../Graphics/Tiles/boxCoinAlt_disabled.png"/>
+  </tile>
+  <tile id="6">
+   <image width="70" height="70" source="../Graphics/Tiles/boxEmpty.png"/>
+  </tile>
+  <tile id="7">
+   <image width="70" height="70" source="../Graphics/Tiles/boxExplosive.png"/>
+  </tile>
+  <tile id="8">
+   <image width="70" height="70" source="../Graphics/Tiles/boxExplosive_disabled.png"/>
+  </tile>
+  <tile id="9">
+   <image width="70" height="70" source="../Graphics/Tiles/boxExplosiveAlt.png"/>
+  </tile>
+  <tile id="10">
+   <image width="70" height="70" source="../Graphics/Tiles/boxItem.png"/>
+  </tile>
+  <tile id="11">
+   <image width="70" height="70" source="../Graphics/Tiles/boxItem_disabled.png"/>
+  </tile>
+  <tile id="12">
+   <image width="70" height="70" source="../Graphics/Tiles/boxItemAlt.png"/>
+  </tile>
+  <tile id="13">
+   <image width="70" height="70" source="../Graphics/Tiles/boxItemAlt_disabled.png"/>
+  </tile>
+  <tile id="14">
+   <image width="70" height="70" source="../Graphics/Tiles/boxWarning.png"/>
+  </tile>
+  <tile id="15">
+   <image width="70" height="70" source="../Graphics/Tiles/brickWall.png"/>
+  </tile>
+  <tile id="16">
+   <image width="70" height="70" source="../Graphics/Tiles/bridge.png"/>
+  </tile>
+  <tile id="17">
+   <image width="70" height="70" source="../Graphics/Tiles/bridgeLogs.png"/>
+  </tile>
+  <tile id="18">
+   <image width="70" height="70" source="../Graphics/Tiles/castle.png"/>
+  </tile>
+  <tile id="19">
+   <image width="70" height="70" source="../Graphics/Tiles/castleCenter.png"/>
+  </tile>
+  <tile id="20">
+   <image width="70" height="70" source="../Graphics/Tiles/castleCenter_rounded.png"/>
+  </tile>
+  <tile id="21">
+   <image width="70" height="70" source="../Graphics/Tiles/castleCliffLeft.png"/>
+  </tile>
+  <tile id="22">
+   <image width="70" height="70" source="../Graphics/Tiles/castleCliffLeftAlt.png"/>
+  </tile>
+  <tile id="23">
+   <image width="70" height="70" source="../Graphics/Tiles/castleCliffRight.png"/>
+  </tile>
+  <tile id="24">
+   <image width="70" height="70" source="../Graphics/Tiles/castleCliffRightAlt.png"/>
+  </tile>
+  <tile id="25">
+   <image width="70" height="70" source="../Graphics/Tiles/castleHalf.png"/>
+  </tile>
+  <tile id="26">
+   <image width="70" height="70" source="../Graphics/Tiles/castleHalfLeft.png"/>
+  </tile>
+  <tile id="27">
+   <image width="70" height="70" source="../Graphics/Tiles/castleHalfMid.png"/>
+  </tile>
+  <tile id="28">
+   <image width="70" height="70" source="../Graphics/Tiles/castleHalfRight.png"/>
+  </tile>
+  <tile id="29">
+   <image width="70" height="70" source="../Graphics/Tiles/castleHillLeft.png"/>
+  </tile>
+  <tile id="30">
+   <image width="70" height="70" source="../Graphics/Tiles/castleHillLeft2.png"/>
+  </tile>
+  <tile id="31">
+   <image width="70" height="70" source="../Graphics/Tiles/castleHillRight.png"/>
+  </tile>
+  <tile id="32">
+   <image width="70" height="70" source="../Graphics/Tiles/castleHillRight2.png"/>
+  </tile>
+  <tile id="33">
+   <image width="5" height="22" source="../Graphics/Tiles/castleLedgeLeft.png"/>
+  </tile>
+  <tile id="34">
+   <image width="5" height="22" source="../Graphics/Tiles/castleLedgeRight.png"/>
+  </tile>
+  <tile id="35">
+   <image width="70" height="70" source="../Graphics/Tiles/castleLeft.png"/>
+  </tile>
+  <tile id="36">
+   <image width="70" height="70" source="../Graphics/Tiles/castleMid.png"/>
+  </tile>
+  <tile id="37">
+   <image width="70" height="70" source="../Graphics/Tiles/castleRight.png"/>
+  </tile>
+  <tile id="38">
+   <image width="70" height="70" source="../Graphics/Tiles/dirt.png"/>
+  </tile>
+  <tile id="39">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtCenter.png"/>
+  </tile>
+  <tile id="40">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtCenter_rounded.png"/>
+  </tile>
+  <tile id="41">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtCliffLeft.png"/>
+  </tile>
+  <tile id="42">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtCliffLeftAlt.png"/>
+  </tile>
+  <tile id="43">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtCliffRight.png"/>
+  </tile>
+  <tile id="44">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtCliffRightAlt.png"/>
+  </tile>
+  <tile id="45">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtHalf.png"/>
+  </tile>
+  <tile id="46">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtHalfLeft.png"/>
+  </tile>
+  <tile id="47">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtHalfMid.png"/>
+  </tile>
+  <tile id="48">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtHalfRight.png"/>
+  </tile>
+  <tile id="49">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtHillLeft.png"/>
+  </tile>
+  <tile id="50">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtHillLeft2.png"/>
+  </tile>
+  <tile id="51">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtHillRight.png"/>
+  </tile>
+  <tile id="52">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtHillRight2.png"/>
+  </tile>
+  <tile id="53">
+   <image width="5" height="18" source="../Graphics/Tiles/dirtLedgeLeft.png"/>
+  </tile>
+  <tile id="54">
+   <image width="5" height="18" source="../Graphics/Tiles/dirtLedgeRight.png"/>
+  </tile>
+  <tile id="55">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtLeft.png"/>
+  </tile>
+  <tile id="56">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtMid.png"/>
+  </tile>
+  <tile id="57">
+   <image width="70" height="70" source="../Graphics/Tiles/dirtRight.png"/>
+  </tile>
+  <tile id="58">
+   <image width="70" height="70" source="../Graphics/Tiles/door_closedMid.png"/>
+  </tile>
+  <tile id="59">
+   <image width="70" height="70" source="../Graphics/Tiles/door_closedTop.png"/>
+  </tile>
+  <tile id="60">
+   <image width="70" height="70" source="../Graphics/Tiles/door_openMid.png"/>
+  </tile>
+  <tile id="61">
+   <image width="70" height="70" source="../Graphics/Tiles/door_openTop.png"/>
+  </tile>
+  <tile id="62">
+   <image width="70" height="70" source="../Graphics/Tiles/fence.png"/>
+  </tile>
+  <tile id="63">
+   <image width="70" height="70" source="../Graphics/Tiles/fenceBroken.png"/>
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+  <tile id="64">
+   <image width="70" height="70" source="../Graphics/Tiles/grass.png"/>
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+  <tile id="65">
+   <image width="70" height="70" source="../Graphics/Tiles/grassCenter.png"/>
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+  <tile id="66">
+   <image width="70" height="70" source="../Graphics/Tiles/grassCenter_rounded.png"/>
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+  <tile id="67">
+   <image width="70" height="70" source="../Graphics/Tiles/grassCliffLeft.png"/>
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+  <tile id="68">
+   <image width="70" height="70" source="../Graphics/Tiles/grassCliffLeftAlt.png"/>
+  </tile>
+  <tile id="69">
+   <image width="70" height="70" source="../Graphics/Tiles/grassCliffRight.png"/>
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+  <tile id="70">
+   <image width="70" height="70" source="../Graphics/Tiles/grassCliffRightAlt.png"/>
+  </tile>
+  <tile id="71">
+   <image width="70" height="70" source="../Graphics/Tiles/grassHalf.png"/>
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="40"/>
+   </objectgroup>
+  </tile>
+  <tile id="72">
+   <image width="70" height="70" source="../Graphics/Tiles/grassHalfLeft.png"/>
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="40"/>
+   </objectgroup>
+  </tile>
+  <tile id="73">
+   <image width="70" height="70" source="../Graphics/Tiles/grassHalfMid.png"/>
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="40"/>
+   </objectgroup>
+  </tile>
+  <tile id="74">
+   <image width="70" height="70" source="../Graphics/Tiles/grassHalfRight.png"/>
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="40"/>
+   </objectgroup>
+  </tile>
+  <tile id="75">
+   <image width="70" height="70" source="../Graphics/Tiles/grassHillLeft.png"/>
+  </tile>
+  <tile id="76">
+   <image width="70" height="70" source="../Graphics/Tiles/grassHillLeft2.png"/>
+  </tile>
+  <tile id="77">
+   <image width="70" height="70" source="../Graphics/Tiles/grassHillRight.png"/>
+  </tile>
+  <tile id="78">
+   <image width="70" height="70" source="../Graphics/Tiles/grassHillRight2.png"/>
+  </tile>
+  <tile id="79">
+   <image width="5" height="24" source="../Graphics/Tiles/grassLedgeLeft.png"/>
+  </tile>
+  <tile id="80">
+   <image width="5" height="24" source="../Graphics/Tiles/grassLedgeRight.png"/>
+  </tile>
+  <tile id="81">
+   <image width="70" height="70" source="../Graphics/Tiles/grassLeft.png"/>
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+  <tile id="82">
+   <image width="70" height="70" source="../Graphics/Tiles/grassMid.png"/>
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+  <tile id="83">
+   <image width="70" height="70" source="../Graphics/Tiles/grassRight.png"/>
+   <objectgroup draworder="index">
+    <object id="0" x="0" y="0" width="70" height="70"/>
+   </objectgroup>
+  </tile>
+  <tile id="84">
+   <image width="48" height="146" source="../Graphics/Tiles/hill_large.png"/>
+  </tile>
+  <tile id="85">
+   <image width="48" height="146" source="../Graphics/Tiles/hill_largeAlt.png"/>
+  </tile>
+  <tile id="86">
+   <image width="48" height="106" source="../Graphics/Tiles/hill_small.png"/>
+  </tile>
+  <tile id="87">
+   <image width="48" height="106" source="../Graphics/Tiles/hill_smallAlt.png"/>
+  </tile>
+  <tile id="88">
+   <image width="70" height="70" source="../Graphics/Tiles/ladder_mid.png"/>
+  </tile>
+  <tile id="89">
+   <image width="70" height="70" source="../Graphics/Tiles/ladder_top.png"/>
+  </tile>
+  <tile id="90">
+   <image width="70" height="70" source="../Graphics/Tiles/liquidLava.png"/>
+  </tile>
+  <tile id="91">
+   <image width="70" height="70" source="../Graphics/Tiles/liquidLavaTop.png"/>
+  </tile>
+  <tile id="92">
+   <image width="70" height="70" source="../Graphics/Tiles/liquidLavaTop_mid.png"/>
+  </tile>
+  <tile id="93">
+   <image width="70" height="70" source="../Graphics/Tiles/liquidWater.png"/>
+   <objectgroup draworder="index"/>
+  </tile>
+  <tile id="94">
+   <image width="70" height="70" source="../Graphics/Tiles/liquidWaterTop.png"/>
+  </tile>
+  <tile id="95">
+   <image width="70" height="70" source="../Graphics/Tiles/liquidWaterTop_mid.png"/>
+  </tile>
+  <tile id="96">
+   <image width="70" height="70" source="../Graphics/Tiles/lock_blue.png"/>
+  </tile>
+  <tile id="97">
+   <image width="70" height="70" source="../Graphics/Tiles/lock_green.png"/>
+  </tile>
+  <tile id="98">
+   <image width="70" height="70" source="../Graphics/Tiles/lock_red.png"/>
+  </tile>
+  <tile id="99">
+   <image width="70" height="70" source="../Graphics/Tiles/lock_yellow.png"/>
+  </tile>
+  <tile id="100">
+   <image width="70" height="70" source="../Graphics/Tiles/rockHillLeft.png"/>
+  </tile>
+  <tile id="101">
+   <image width="70" height="70" source="../Graphics/Tiles/rockHillRight.png"/>
+  </tile>
+  <tile id="102">
+   <image width="70" height="70" source="../Graphics/Tiles/ropeAttached.png"/>
+  </tile>
+  <tile id="103">
+   <image width="70" height="70" source="../Graphics/Tiles/ropeHorizontal.png"/>
+  </tile>
+  <tile id="104">
+   <image width="70" height="70" source="../Graphics/Tiles/ropeVertical.png"/>
+  </tile>
+  <tile id="105">
+   <image width="70" height="70" source="../Graphics/Tiles/sand.png"/>
+  </tile>
+  <tile id="106">
+   <image width="70" height="70" source="../Graphics/Tiles/sandCenter.png"/>
+  </tile>
+  <tile id="107">
+   <image width="70" height="70" source="../Graphics/Tiles/sandCenter_rounded.png"/>
+  </tile>
+  <tile id="108">
+   <image width="70" height="70" source="../Graphics/Tiles/sandCliffLeft.png"/>
+  </tile>
+  <tile id="109">
+   <image width="70" height="70" source="../Graphics/Tiles/sandCliffLeftAlt.png"/>
+  </tile>
+  <tile id="110">
+   <image width="70" height="70" source="../Graphics/Tiles/sandCliffRight.png"/>
+  </tile>
+  <tile id="111">
+   <image width="70" height="70" source="../Graphics/Tiles/sandCliffRightAlt.png"/>
+  </tile>
+  <tile id="112">
+   <image width="70" height="70" source="../Graphics/Tiles/sandHalf.png"/>
+  </tile>
+  <tile id="113">
+   <image width="70" height="70" source="../Graphics/Tiles/sandHalfLeft.png"/>
+  </tile>
+  <tile id="114">
+   <image width="70" height="70" source="../Graphics/Tiles/sandHalfMid.png"/>
+  </tile>
+  <tile id="115">
+   <image width="70" height="70" source="../Graphics/Tiles/sandHalfRight.png"/>
+  </tile>
+  <tile id="116">
+   <image width="70" height="70" source="../Graphics/Tiles/sandHillLeft.png"/>
+  </tile>
+  <tile id="117">
+   <image width="70" height="70" source="../Graphics/Tiles/sandHillLeft2.png"/>
+  </tile>
+  <tile id="118">
+   <image width="70" height="70" source="../Graphics/Tiles/sandHillRight.png"/>
+  </tile>
+  <tile id="119">
+   <image width="70" height="70" source="../Graphics/Tiles/sandHillRight2.png"/>
+  </tile>
+  <tile id="120">
+   <image width="5" height="18" source="../Graphics/Tiles/sandLedgeLeft.png"/>
+  </tile>
+  <tile id="121">
+   <image width="5" height="18" source="../Graphics/Tiles/sandLedgeRight.png"/>
+  </tile>
+  <tile id="122">
+   <image width="70" height="70" source="../Graphics/Tiles/sandLeft.png"/>
+  </tile>
+  <tile id="123">
+   <image width="70" height="70" source="../Graphics/Tiles/sandMid.png"/>
+  </tile>
+  <tile id="124">
+   <image width="70" height="70" source="../Graphics/Tiles/sandRight.png"/>
+  </tile>
+  <tile id="125">
+   <image width="70" height="70" source="../Graphics/Tiles/sign.png"/>
+  </tile>
+  <tile id="126">
+   <image width="70" height="70" source="../Graphics/Tiles/signExit.png"/>
+  </tile>
+  <tile id="127">
+   <image width="70" height="70" source="../Graphics/Tiles/signLeft.png"/>
+  </tile>
+  <tile id="128">
+   <image width="70" height="70" source="../Graphics/Tiles/signRight.png"/>
+  </tile>
+  <tile id="129">
+   <image width="70" height="70" source="../Graphics/Tiles/snow.png"/>
+  </tile>
+  <tile id="130">
+   <image width="70" height="70" source="../Graphics/Tiles/snowCenter.png"/>
+  </tile>
+  <tile id="131">
+   <image width="70" height="70" source="../Graphics/Tiles/snowCenter_rounded.png"/>
+  </tile>
+  <tile id="132">
+   <image width="70" height="70" source="../Graphics/Tiles/snowCliffLeft.png"/>
+  </tile>
+  <tile id="133">
+   <image width="70" height="70" source="../Graphics/Tiles/snowCliffLeftAlt.png"/>
+  </tile>
+  <tile id="134">
+   <image width="70" height="70" source="../Graphics/Tiles/snowCliffRight.png"/>
+  </tile>
+  <tile id="135">
+   <image width="70" height="70" source="../Graphics/Tiles/snowCliffRightAlt.png"/>
+  </tile>
+  <tile id="136">
+   <image width="70" height="70" source="../Graphics/Tiles/snowHalf.png"/>
+  </tile>
+  <tile id="137">
+   <image width="70" height="70" source="../Graphics/Tiles/snowHalfLeft.png"/>
+  </tile>
+  <tile id="138">
+   <image width="70" height="70" source="../Graphics/Tiles/snowHalfMid.png"/>
+  </tile>
+  <tile id="139">
+   <image width="70" height="70" source="../Graphics/Tiles/snowHalfRight.png"/>
+  </tile>
+  <tile id="140">
+   <image width="70" height="70" source="../Graphics/Tiles/snowHillLeft.png"/>
+  </tile>
+  <tile id="141">
+   <image width="70" height="70" source="../Graphics/Tiles/snowHillLeft2.png"/>
+  </tile>
+  <tile id="142">
+   <image width="70" height="70" source="../Graphics/Tiles/snowHillRight.png"/>
+  </tile>
+  <tile id="143">
+   <image width="70" height="70" source="../Graphics/Tiles/snowHillRight2.png"/>
+  </tile>
+  <tile id="144">
+   <image width="5" height="18" source="../Graphics/Tiles/snowLedgeLeft.png"/>
+  </tile>
+  <tile id="145">
+   <image width="5" height="18" source="../Graphics/Tiles/snowLedgeRight.png"/>
+  </tile>
+  <tile id="146">
+   <image width="70" height="70" source="../Graphics/Tiles/snowLeft.png"/>
+  </tile>
+  <tile id="147">
+   <image width="70" height="70" source="../Graphics/Tiles/snowMid.png"/>
+  </tile>
+  <tile id="148">
+   <image width="70" height="70" source="../Graphics/Tiles/snowRight.png"/>
+  </tile>
+  <tile id="149">
+   <image width="70" height="70" source="../Graphics/Tiles/stone.png"/>
+  </tile>
+  <tile id="150">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneCenter.png"/>
+  </tile>
+  <tile id="151">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneCenter_rounded.png"/>
+  </tile>
+  <tile id="152">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneCliffLeft.png"/>
+  </tile>
+  <tile id="153">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneCliffLeftAlt.png"/>
+  </tile>
+  <tile id="154">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneCliffRight.png"/>
+  </tile>
+  <tile id="155">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneCliffRightAlt.png"/>
+  </tile>
+  <tile id="156">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneHalf.png"/>
+  </tile>
+  <tile id="157">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneHalfLeft.png"/>
+  </tile>
+  <tile id="158">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneHalfMid.png"/>
+  </tile>
+  <tile id="159">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneHalfRight.png"/>
+  </tile>
+  <tile id="160">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneHillLeft2.png"/>
+  </tile>
+  <tile id="161">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneHillRight2.png"/>
+  </tile>
+  <tile id="162">
+   <image width="5" height="24" source="../Graphics/Tiles/stoneLedgeLeft.png"/>
+  </tile>
+  <tile id="163">
+   <image width="5" height="24" source="../Graphics/Tiles/stoneLedgeRight.png"/>
+  </tile>
+  <tile id="164">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneLeft.png"/>
+  </tile>
+  <tile id="165">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneMid.png"/>
+  </tile>
+  <tile id="166">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneRight.png"/>
+  </tile>
+  <tile id="167">
+   <image width="70" height="70" source="../Graphics/Tiles/stoneWall.png"/>
+  </tile>
+  <tile id="168">
+   <image width="70" height="70" source="../Graphics/Tiles/tochLit.png"/>
+  </tile>
+  <tile id="169">
+   <image width="70" height="70" source="../Graphics/Tiles/tochLit2.png"/>
+  </tile>
+  <tile id="170">
+   <image width="70" height="70" source="../Graphics/Tiles/torch.png"/>
+  </tile>
+  <tile id="171">
+   <image width="70" height="70" source="../Graphics/Tiles/window.png"/>
+  </tile>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="300" height="30">
+  <data encoding="csv">
+66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,
+66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,82,83,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,83,0,0,0,0,0,0,83,0,0,0,0,0,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,83,83,83,83,83,83,83,83,83,83,83,82,83,83,83,83,83,84,0,0,82,83,83,83,83,83,83,83,83,84,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,82,83,83,83,83,83,83,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,82,83,84,89,82,83,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,82,83,84,0,0,0,68,83,83,83,83,83,83,70,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,82,83,84,0,0,0,0,0,0,0,0,0,66,66,66,66,66,66,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,82,83,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,66,66,66,66,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,66,66,66,66,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,66,66,66,66,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73,74,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,66,66,66,66,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,83,83,83,83,83,0,0,0,0,0,0,0,0,0,0,0,0,83,83,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,83,83,83,83,83,83,89,83,83,83,83,83,83,0,0,0,0,0,0,0,0,0,73,74,75,0,0,0,0,0,0,73,74,75,0,0,73,74,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,66,66,66,66,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,66,66,66,66,66,66,0,0,0,0,0,0,0,0,0,0,66,66,66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,66,66,66,66,89,66,66,66,66,66,66,83,83,83,83,83,83,83,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,66,0,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,66,66,66,66,66,66,0,0,0,0,0,0,0,0,0,0,66,66,66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,66,66,66,66,89,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,66,0,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,66,66,66,66,89,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,66,0,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,
+66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,66,66,66,66,83,83,83,83,83,83,83,83,83,83,83,83,83,66,0,0,0,0,0,0,0,0,73,74,75,0,0,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66,66,83,83,83,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,66
+</data>
+ </layer>
+</map>

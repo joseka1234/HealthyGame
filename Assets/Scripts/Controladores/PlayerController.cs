@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 
 // TODO: Problema de las paredes (Parcialmente solucionado, ahora resbala poco a poco, se podría poner una animación y lehto!)
+using System;
+
+
 namespace AssemblyCSharp
 {
 	public class PlayerController : MonoBehaviour
@@ -20,12 +23,13 @@ namespace AssemblyCSharp
 		public const string HUD = "GameScene/UI/HUD";
 		public const string PLAYER = "GameScene/Player";
 
-		public float velocidad = 10f;
-		public float fuerzaSalto = 10f;
+		public float DuracionSalto = 1.5f;
 		public float gravedad = 20f;
 		public float agarre = 5f;
 		public float tiempoInvencibilidad = 1f;
 		public float distanciaKnockBack = 0.2f;
+		public float ProporcionAnchoSalto = 3f;
+		public float ProporcionAltoSalto = 2f;
 
 		public int vidas = 3;
 		public int puntuacion = 0;
@@ -33,6 +37,13 @@ namespace AssemblyCSharp
 		public static bool face;
 		public static bool enSuelo;
 
+		private float AnchoSalto { get; set; }
+
+		private float AltoSalto { get; set; }
+
+		private float Velocidad { get; set; }
+
+		private float FuerzaSalto { get; set; }
 
 		private Animator animaciones { get; set; }
 
@@ -73,26 +84,45 @@ namespace AssemblyCSharp
 			controlesActivados = true;
 			controladorDeTexto = new ControladorTexto ();
 			frenteAEscalera = false;
+			CalculaVelocidadYSalto ();
+			CalculaAnchoYAltoSalto ();
 		}
 
 		// Update is called once per frame
 		void FixedUpdate ()
 		{
-
+			if (vidas <= 0) {
+				Morir ();
+			}
 			if (enSuelo) {
 				animaciones.SetBool (GROUNDED, true);
 			} else {
 				animaciones.SetBool (GROUNDED, false);
 			}
-
-			if (vidas <= 0) {
-				Morir ();
-			}
-
+			CalculaVelocidadYSalto ();
+			CalculaAnchoYAltoSalto ();
 			GameObject.Find (HUD + "/Puntuacion").GetComponentInChildren<Text> ().text = puntuacion.ToString ();
 
 			ControlPersonaje ();
 			CompruebaBalas ();
+		}
+
+		/// <summary>
+		/// Calcula la velocidad y la fuerza de salto del personaje
+		/// </summary>
+		private void CalculaVelocidadYSalto ()
+		{
+			Velocidad = AnchoSalto / DuracionSalto;
+			FuerzaSalto = AltoSalto - ((1f / 2f) * (-gravedad) * Mathf.Pow (DuracionSalto, 2));
+		}
+
+		/// <summary>
+		/// Calcula el ancho y el alto máximo del salto
+		/// </summary>
+		private void CalculaAnchoYAltoSalto ()
+		{
+			AnchoSalto = GetComponent<SpriteRenderer> ().bounds.size.x * ProporcionAnchoSalto;
+			AltoSalto = GetComponent<SpriteRenderer> ().bounds.size.y * ProporcionAltoSalto;
 		}
 
 		/// <summary>
@@ -123,18 +153,7 @@ namespace AssemblyCSharp
 		/// <param name="objeto">Objeto.</param>
 		private float DistanciaAJugador (Transform objeto)
 		{
-			return DistanciaAOrigen (transform, objeto.transform);
-		}
-
-		/// <summary>
-		/// Devuelve la distancia de un punto a otro
-		/// </summary>
-		/// <returns>The A origen.</returns>
-		/// <param name="origen">Origen.</param>
-		/// <param name="destino">Destino.</param>
-		private float DistanciaAOrigen (Transform origen, Transform destino)
-		{
-			return Vector2.Distance (origen.position, destino.position);
+			return Vector2.Distance (transform.position, objeto.transform.position);
 		}
 
 		/// <summary>
@@ -142,7 +161,6 @@ namespace AssemblyCSharp
 		/// </summary>
 		private void ControlPersonaje ()
 		{
-
 			// TODO: Mirar si se ha arreglado el recibir el golpe
 			if (recibiendoGolpe) {
 				if (controlesActivados) {
@@ -222,17 +240,17 @@ namespace AssemblyCSharp
 
 		private bool Atascado ()
 		{
-			return !enSuelo && (System.Math.Abs (body.velocity.y) < EPSILON);
+			return !enSuelo && (Math.Abs (body.velocity.y) < EPSILON);
 		}
 
 		private void SubirEscalera ()
 		{
-			body.velocity = new Vector2 (body.velocity.x, velocidad);
+			body.velocity = new Vector2 (body.velocity.x, Velocidad);
 		}
 
 		private void BajarEscalera ()
 		{
-			body.velocity = new Vector2 (body.velocity.x, -velocidad);
+			body.velocity = new Vector2 (body.velocity.x, -Velocidad);
 		}
 
 		private void Respawn ()
@@ -275,7 +293,7 @@ namespace AssemblyCSharp
 				face = false;
 				RotarObjeto (transform.gameObject);
 			}
-			body.velocity = new Vector2 (-velocidad, body.velocity.y);
+			body.velocity = new Vector2 (-Velocidad, body.velocity.y);
 		}
 
 		/// <summary>
@@ -288,7 +306,7 @@ namespace AssemblyCSharp
 				face = true;
 				RotarObjeto (transform.gameObject);
 			}
-			body.velocity = new Vector2 (velocidad, body.velocity.y);
+			body.velocity = new Vector2 (Velocidad, body.velocity.y);
 		}
 
 		/// <summary>
@@ -296,7 +314,7 @@ namespace AssemblyCSharp
 		/// </summary>
 		private void Saltar ()
 		{
-			body.velocity = new Vector2 (body.velocity.x, fuerzaSalto);
+			body.velocity = new Vector2 (body.velocity.x, FuerzaSalto);
 		}
 
 		/// <summary>
