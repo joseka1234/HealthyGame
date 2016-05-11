@@ -36,6 +36,7 @@ namespace AssemblyCSharp
 
 		public static bool face;
 		public static bool enSuelo;
+		public static bool pausa;
 
 		private float AnchoSalto { get; set; }
 
@@ -72,6 +73,7 @@ namespace AssemblyCSharp
 		// Use this for initialization
 		void Start ()
 		{
+			pausa = false;
 			enSuelo = true;
 			invencible = false;
 			muerto = false;
@@ -98,6 +100,10 @@ namespace AssemblyCSharp
 				animaciones.SetBool (GROUNDED, true);
 			} else {
 				animaciones.SetBool (GROUNDED, false);
+			}
+			if (pausa) {
+				SetIDLE ();
+				return;
 			}
 			CalculaVelocidadYSalto ();
 			CalculaAnchoYAltoSalto ();
@@ -355,19 +361,7 @@ namespace AssemblyCSharp
 
 		void OnTriggerEnter2D (Collider2D other)
 		{
-			if (other.tag == "TextTrigger") {
-				controladorDeTexto.AbrirCajaTexto ();
-
-				SetIDLE ();
-				Texto textoTrigger = other.gameObject.GetComponent<Texto> ();
-				textosAMostrar = textoTrigger.GetTextos ();
-
-				MostrarTexto ();
-
-				Destroy (other.gameObject);
-				cajaTextoAbierta = true;
-				controlesActivados = false;
-			} else if (other.tag == "Muerte") {
+			if (other.tag == "Muerte") {
 				Morir ();
 			}
 		}
@@ -387,7 +381,7 @@ namespace AssemblyCSharp
 				body.gravityScale = 0;
 				frenteAEscalera = true;
 				body.drag = agarre * 3;
-				animaciones.SetBool (GROUNDED, true);
+				SetIDLE ();
 			}
 		}
 

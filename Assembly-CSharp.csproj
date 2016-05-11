@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CEC110EB-1A59-3129-0F75-E51E559BE955}</ProjectGuid>
+    <ProjectGuid>{703F019F-82AB-CCEC-7D29-91A338A66971}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -38,15 +38,21 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>E:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>F:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>E:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>F:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Animaciones\ContinuarCorriendo.cs" />
      <Compile Include="Assets\Scripts\Animaciones\TerminarAnimacion.cs" />
+     <Compile Include="Assets\Scripts\Cinematica\Animacion.cs" />
+     <Compile Include="Assets\Scripts\Cinematica\Cinematica.cs" />
+     <Compile Include="Assets\Scripts\Cinematica\Conversacion.cs" />
+     <Compile Include="Assets\Scripts\Cinematica\ElementoCinematica.cs" />
+     <Compile Include="Assets\Scripts\Cinematica\MensajeConversacion.cs" />
+     <Compile Include="Assets\Scripts\Cinematica\Movimiento.cs" />
      <Compile Include="Assets\Scripts\Controladores\ControladorTexto.cs" />
      <Compile Include="Assets\Scripts\Controladores\DetectorSuelo.cs" />
      <Compile Include="Assets\Scripts\Controladores\FuncionesComunes.cs" />
@@ -88,10 +94,10 @@
      <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
      <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>F:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>F:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

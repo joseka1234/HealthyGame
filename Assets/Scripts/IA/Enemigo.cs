@@ -5,24 +5,18 @@ namespace AssemblyCSharp
 {
 	public abstract class Enemigo : MonoBehaviour
 	{
-		// TODO: Mirar como hacer para que pare el enemigo y tah
-		// TODO: Implementar el comportamiento general de cualquier enemigo
+		protected GameObject player { get; set; }
 
 		public float distanciaDeteccion = 1f;
-
-		protected GameObject player { get; set; }
+		protected float tiempoInvencibilidad = 1f;
 
 		public int vidas = 3;
 
-		protected float tiempoInvencibilidad = 1f;
 		protected bool estadoInvencibilidad;
 
 		protected bool golpePorLaDerecha { get; set; }
 
-
 		private bool atacando { get; set; }
-
-
 
 		void Awake ()
 		{
@@ -33,7 +27,6 @@ namespace AssemblyCSharp
 
 		void Update ()
 		{
-			// Debug.Log (vidas);
 			if (vidas <= 0) {
 				Destroy (this.gameObject);
 				return;
@@ -69,18 +62,8 @@ namespace AssemblyCSharp
 
 		private bool PuedeAtacar ()
 		{
-			return Vector3.Distance (transform.position, player.transform.position) < distanciaDeteccion;
-		}
 
-		void OnTriggerEnter2D (Collider2D other)
-		{
-			Debug.Log (other.tag);
-			if (other.tag == "Bala") {
-				Debug.Log ("Chivato");
-				golpePorLaDerecha |= other.transform.position.x > transform.position.x;
-				RecibeGolpe ();
-				Destroy (other.gameObject);
-			}
+			return Vector3.Distance (transform.position, player.transform.position) < distanciaDeteccion;
 		}
 	}
 }
