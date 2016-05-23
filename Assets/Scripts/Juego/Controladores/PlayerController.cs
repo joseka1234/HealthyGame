@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 
 // TODO: Problema de las paredes (Parcialmente solucionado, ahora resbala poco a poco, se podría poner una animación y lehto!)
+// TODO: Implementar lo de la insulina que se quede registrada entre distintos niveles
+// TODO: Mirar como saber de que escena venimos
 using System;
 
 
@@ -14,7 +16,6 @@ namespace AssemblyCSharp
 	public class PlayerController : MonoBehaviour
 	{
 		private const float EPSILON = 0.01f;
-
 		public const string WALKING = "Walking";
 		public const string GROUNDED = "Grounded";
 		public const string DISPARAR = "Disparar";
@@ -342,6 +343,8 @@ namespace AssemblyCSharp
 			GameObject gameOver = GameObject.Find ("GameScene/UI/FondoNegro");
 			gameOver.SetActive (true);
 			StartCoroutine (FuncionesComunes.DesplazarInterfaz (gameOver, Vector3.zero, 1000f));
+			// TODO: Hacer esto bien para que se vea el mensaje de GameOver
+			SceneManager.LoadScene ("MinijuegoInsulina");
 		}
 
 		private void SetIDLE ()

@@ -1,13 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Cinematica\Movimiento.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Juego\Controladores\PlayerController.cs">
     <Files>
-      <File FileName="Assets\Scripts\Cinematica\Cinematica.cs" Line="9" Column="39" />
-      <File FileName="Assets\Scripts\Cinematica\ElementoCinematica.cs" Line="7" Column="2" />
-      <File FileName="Assets\Scripts\Cinematica\Conversacion.cs" Line="14" Column="4" />
-      <File FileName="Assets\Scripts\Cinematica\MensajeConversacion.cs" Line="8" Column="8" />
-      <File FileName="Assets\Scripts\Cinematica\Animacion.cs" Line="7" Column="31" />
-      <File FileName="Assets\Scripts\Cinematica\Movimiento.cs" Line="6" Column="2" />
+      <File FileName="Assets\Scripts\Minijuegos\Insulina\ControladorMinijuegoInsulina.cs" Line="196" Column="45" />
+      <File FileName="Assets\Scripts\Juego\Controladores\PlayerController.cs" Line="345" Column="79" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
