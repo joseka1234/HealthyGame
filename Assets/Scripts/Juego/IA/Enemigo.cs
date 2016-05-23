@@ -7,6 +7,8 @@ namespace AssemblyCSharp
 	{
 		protected GameObject player { get; set; }
 
+		protected float AzucarProporcionada;
+
 		public float distanciaDeteccion = 1f;
 		protected float tiempoInvencibilidad = 1f;
 
@@ -64,6 +66,24 @@ namespace AssemblyCSharp
 		{
 
 			return Vector3.Distance (transform.position, player.transform.position) < distanciaDeteccion;
+		}
+
+		/// <summary>
+		/// Establece el azucar proporcionada por el enemigo
+		/// </summary>
+		/// <param name="_Azucar">Azucar.</param>
+		public void SetAzucarProporcionada (float _Azucar)
+		{
+			AzucarProporcionada = _Azucar;
+		}
+
+		/// <summary>
+		/// Devuelve el azucar proporcionada
+		/// </summary>
+		/// <returns>The azucar proporcionada.</returns>
+		public float GetAzucarProporcionada ()
+		{
+			return AzucarProporcionada;
 		}
 	}
 }

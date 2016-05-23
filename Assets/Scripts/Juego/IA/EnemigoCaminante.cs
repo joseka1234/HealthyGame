@@ -5,6 +5,12 @@ namespace AssemblyCSharp
 	public class EnemigoCaminante : Enemigo
 	{
 		public float speed = 10f;
+		public float Azucar = 30f;
+
+		void Start ()
+		{
+			SetAzucarProporcionada (Azucar);
+		}
 
 		public override void Movimiento ()
 		{

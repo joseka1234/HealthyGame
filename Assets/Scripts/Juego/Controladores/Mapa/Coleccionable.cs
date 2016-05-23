@@ -5,6 +5,7 @@ public class Coleccionable : MonoBehaviour
 {
 
 	public float VelocidadDeGiro = 2f;
+	public float AzucarProporcionado = 10f;
 
 	void Update ()
 	{
@@ -14,7 +15,9 @@ public class Coleccionable : MonoBehaviour
 	void OnTriggerEnter2D (Collider2D other)
 	{
 		if (other.tag == "Player") {
-			GameObject.Find (PlayerController.PLAYER).GetComponent<PlayerController> ().puntuacion++;
+			PlayerController controlador = GameObject.Find (PlayerController.PLAYER).GetComponent<PlayerController> ();
+			controlador.azucar += AzucarProporcionado;
+
 			Destroy (this.gameObject);
 		}
 	}

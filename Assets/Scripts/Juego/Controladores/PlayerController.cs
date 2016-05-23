@@ -3,14 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+using System;
 
 // TODO: Problema de las paredes (Parcialmente solucionado, ahora resbala poco a poco, se podría poner una animación y lehto!)
 // TODO: Implementar lo de la insulina que se quede registrada entre distintos niveles
-// TODO: Mirar como saber de que escena venimos
-using System;
-
-
 namespace AssemblyCSharp
 {
 	public class PlayerController : MonoBehaviour
@@ -24,6 +20,9 @@ namespace AssemblyCSharp
 		public const string HUD = "GameScene/UI/HUD";
 		public const string PLAYER = "GameScene/Player";
 
+		public const float MAX_AZUCAR = 250;
+		public const float MIN_AZUCAR = 20;
+
 		public float DuracionSalto = 1.5f;
 		public float gravedad = 20f;
 		public float agarre = 5f;
@@ -32,8 +31,7 @@ namespace AssemblyCSharp
 		public float ProporcionAnchoSalto = 3f;
 		public float ProporcionAltoSalto = 2f;
 
-		public int vidas = 3;
-		public int puntuacion = 0;
+		public float azucar = 130;
 
 		public static bool face;
 		public static bool enSuelo;
@@ -71,6 +69,10 @@ namespace AssemblyCSharp
 
 		private bool golpePorLaDerecha { get; set; }
 
+		public GameObject BarraAzucar;
+
+		private float DescensoAzucar { get; set; }
+
 		// Use this for initialization
 		void Start ()
 		{
@@ -89,12 +91,18 @@ namespace AssemblyCSharp
 			frenteAEscalera = false;
 			CalculaVelocidadYSalto ();
 			CalculaAnchoYAltoSalto ();
+			DescensoAzucar = Time.time;
 		}
 
 		// Update is called once per frame
 		void FixedUpdate ()
 		{
-			if (vidas <= 0) {
+			if (Time.time - DescensoAzucar >= 1f) {
+				azucar--;
+				DescensoAzucar = Time.time;
+			}
+			SetAzucar ();
+			if (azucar <= MIN_AZUCAR || azucar >= MAX_AZUCAR) {
 				Morir ();
 			}
 			if (enSuelo) {
@@ -108,10 +116,19 @@ namespace AssemblyCSharp
 			}
 			CalculaVelocidadYSalto ();
 			CalculaAnchoYAltoSalto ();
-			GameObject.Find (HUD + "/Puntuacion").GetComponentInChildren<Text> ().text = puntuacion.ToString ();
 
 			ControlPersonaje ();
 			CompruebaBalas ();
+		}
+
+		private void SetAzucar ()
+		{
+			if (azucar > 160 || azucar < 75) {
+				BarraAzucar.GetComponent<Image> ().color = Color.red;
+			} else {
+				BarraAzucar.GetComponent<Image> ().color = Color.green;
+			}
+			BarraAzucar.GetComponent<RectTransform> ().localScale = new Vector3 (azucar / MAX_AZUCAR, 1, 1);
 		}
 
 		/// <summary>
@@ -200,11 +217,13 @@ namespace AssemblyCSharp
 			if (controlesActivados && !muerto) {
 				if (Input.GetKey (KeyCode.A) || Input.GetKey (KeyCode.LeftArrow)) {
 					if (Atascado () && !face) {
+						// TODO: Que hacemos con los atascos??
 						return;
 					}
 					CaminarIzquierda ();
 				} else if (Input.GetKey (KeyCode.D) || Input.GetKey (KeyCode.RightArrow)) {
 					if (Atascado () && face) {
+						// TODO: Que hacemos con los atascos??
 						return;
 					}
 					CaminarDerecha ();
@@ -240,8 +259,8 @@ namespace AssemblyCSharp
 				}
 			}
 			if (Input.GetKeyDown (KeyCode.R) && muerto) {
-				// TODO: Arreglar problema con el reseteo de las plataformas que se caen.
-				SceneManager.LoadScene (SceneManager.GetActiveScene ().name);
+				FuncionesComunes.SetEscenaPrevia ();
+				SceneManager.LoadScene ("MinijuegoInsulina");
 			}
 		}
 
@@ -343,8 +362,10 @@ namespace AssemblyCSharp
 			GameObject gameOver = GameObject.Find ("GameScene/UI/FondoNegro");
 			gameOver.SetActive (true);
 			StartCoroutine (FuncionesComunes.DesplazarInterfaz (gameOver, Vector3.zero, 1000f));
-			// TODO: Hacer esto bien para que se vea el mensaje de GameOver
-			SceneManager.LoadScene ("MinijuegoInsulina");
+			StartCoroutine (FuncionesComunes.EjecutarAlFinal (2.5f, () => {
+				FuncionesComunes.SetEscenaPrevia ();
+				SceneManager.LoadScene ("MinijuegoInsulina");
+			}));
 		}
 
 		private void SetIDLE ()
@@ -356,6 +377,12 @@ namespace AssemblyCSharp
 		void OnCollisionEnter2D (Collision2D other)
 		{
 			if (other.collider.tag == "Enemigo" && !invencible) {
+				if (other.gameObject.GetComponent<Enemigo> ().GetAzucarProporcionada () > 0) {
+					azucar += other.gameObject.GetComponent<Enemigo> ().GetAzucarProporcionada ();
+				} else {
+					// TODO: Se implementarán enemigos que restén azucar??
+					throw new Exception ("No puede ser que un enemigo no proporcione azucar!");
+				}
 				golpePorLaDerecha |= other.transform.position.x > transform.position.x;
 				RecibeGolpe ();
 				other.collider.GetComponent<Enemigo> ().RecibeGolpe ();
@@ -390,7 +417,6 @@ namespace AssemblyCSharp
 
 		private void RecibeGolpe ()
 		{
-			vidas--;
 			StartCoroutine (ActivaDesactivaInvencibilidad ());
 			recibiendoGolpe = true;
 		}

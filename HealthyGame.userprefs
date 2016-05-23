@@ -2,8 +2,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Juego\Controladores\PlayerController.cs">
     <Files>
-      <File FileName="Assets\Scripts\Minijuegos\Insulina\ControladorMinijuegoInsulina.cs" Line="196" Column="45" />
-      <File FileName="Assets\Scripts\Juego\Controladores\PlayerController.cs" Line="345" Column="79" />
+      <File FileName="Assets\Scripts\Juego\Controladores\PlayerController.cs" Line="100" Column="39" />
+      <File FileName="Assets\Scripts\Juego\Controladores\FuncionesComunes.cs" Line="92" Column="49" />
+      <File FileName="Assets\Scripts\Juego\Controladores\Mapa\Coleccionable.cs" Line="18" Column="111" />
+      <File FileName="Assets\Scripts\Juego\IA\Enemigo.cs" Line="72" Column="55" />
+      <File FileName="Assets\Scripts\Juego\IA\EnemigoCaminante.cs" Line="12" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

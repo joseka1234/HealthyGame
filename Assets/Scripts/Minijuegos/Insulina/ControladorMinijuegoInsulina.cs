@@ -175,7 +175,6 @@ public class ControladorMinijuegoInsulina : MonoBehaviour
 		float posicionZ;
 		while (true) {
 			posicionZ = transformJeringa.rotation.eulerAngles.z;
-			Debug.Log (posicionZ);
 			if (posicionZ >= LIMITE_IZQUIERDA && haciaLaIzquierda) {
 				incrementoRotacion *= -1f;
 				haciaLaIzquierda = false;
@@ -192,7 +191,6 @@ public class ControladorMinijuegoInsulina : MonoBehaviour
 			}
 			yield return new WaitForSeconds (0.01f);
 		}
-		// TODO: Hacer que se vuelva a la escena anterior
-		SceneManager.LoadScene ("MinijuegoInsulina");
+		SceneManager.LoadScene (FuncionesComunes.GetEscenaPrevia ());
 	}
 }
