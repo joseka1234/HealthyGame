@@ -63,6 +63,7 @@
      <None Include="Assets\Tiled2Unity\Tiled2Unity.export.txt" />
      <None Include="Assets\Textos\Conversacion1.txt" />
      <None Include="Assets\Graphics\Items\items_spritesheet.xml" />
+     <None Include="Assets\Tiled2Unity\Imported\Paredes.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\MapaTutorial.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Imported\MapaPrueba.tiled2unity.xml" />
      <None Include="Assets\Tiled2Unity\Materials\_ReadMe.txt" />

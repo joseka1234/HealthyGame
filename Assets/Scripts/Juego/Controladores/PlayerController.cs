@@ -41,9 +41,9 @@ namespace AssemblyCSharp
 
 		private float AltoSalto { get; set; }
 
-		private float Velocidad { get; set; }
+		public float Velocidad;
 
-		private float FuerzaSalto { get; set; }
+		public float FuerzaSalto;
 
 		private Animator animaciones { get; set; }
 
@@ -319,7 +319,7 @@ namespace AssemblyCSharp
 				face = false;
 				RotarObjeto (transform.gameObject);
 			}
-			body.velocity = new Vector2 (-Velocidad, body.velocity.y);
+			body.AddForce (Vector2.left * Velocidad * 8);
 		}
 
 		/// <summary>
@@ -332,7 +332,8 @@ namespace AssemblyCSharp
 				face = true;
 				RotarObjeto (transform.gameObject);
 			}
-			body.velocity = new Vector2 (Velocidad, body.velocity.y);
+			body.AddForce (Vector2.right * Velocidad * 8);
+			// body.velocity = new Vector2 (Velocidad, body.velocity.y);
 		}
 
 		/// <summary>
