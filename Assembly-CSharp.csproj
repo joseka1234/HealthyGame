@@ -45,7 +45,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\EscenaActual.cs" />
+     <Compile Include="Assets\Scripts\Common\EscenaActual.cs" />
+     <Compile Include="Assets\Scripts\Common\NoDestruir.cs" />
      <Compile Include="Assets\Scripts\Juego\Animaciones\ContinuarCorriendo.cs" />
      <Compile Include="Assets\Scripts\Juego\Animaciones\TerminarAnimacion.cs" />
      <Compile Include="Assets\Scripts\Juego\Cinematica\Animacion.cs" />
@@ -54,6 +55,7 @@
      <Compile Include="Assets\Scripts\Juego\Cinematica\ElementoCinematica.cs" />
      <Compile Include="Assets\Scripts\Juego\Cinematica\MensajeConversacion.cs" />
      <Compile Include="Assets\Scripts\Juego\Cinematica\Movimiento.cs" />
+     <Compile Include="Assets\Scripts\Juego\Controladores\CheckPoint.cs" />
      <Compile Include="Assets\Scripts\Juego\Controladores\ControladorTexto.cs" />
      <Compile Include="Assets\Scripts\Juego\Controladores\DetectorSuelo.cs" />
      <Compile Include="Assets\Scripts\Juego\Controladores\FuncionesComunes.cs" />
@@ -74,6 +76,7 @@
      <Compile Include="Assets\Scripts\Juego\ModeloDatos\InformacionBala.cs" />
      <Compile Include="Assets\Scripts\Juego\ModeloDatos\Texto.cs" />
      <Compile Include="Assets\Scripts\Minijuegos\Insulina\ControladorMinijuegoInsulina.cs" />
+     <Compile Include="Assets\Scripts\Minijuegos\MedirAzucar\Pinchazo.cs" />
      <Compile Include="Assets\Scripts\Minijuegos\MedirAzucar\Tira.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\ImportBehaviour.cs" />
      <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\SortingLayerExposed.cs" />

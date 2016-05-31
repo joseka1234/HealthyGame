@@ -76,6 +76,7 @@ namespace AssemblyCSharp
 		// Use this for initialization
 		void Start ()
 		{
+			gameObject.transform.position = GameObject.FindGameObjectWithTag ("Respawn").transform.position;
 			pausa = false;
 			enSuelo = true;
 			invencible = false;
