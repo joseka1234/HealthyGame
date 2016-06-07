@@ -401,6 +401,9 @@ namespace AssemblyCSharp
 		{
 			if (other.tag == "Muerte") {
 				Morir ();
+			} else if (other.tag == "BalaEnemigo") {
+				azucar += other.GetComponent<InformacionBala> ().GetAzucar ();
+				RecibeGolpe ();
 			}
 		}
 

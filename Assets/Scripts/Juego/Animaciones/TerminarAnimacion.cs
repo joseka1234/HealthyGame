@@ -29,7 +29,7 @@ namespace AssemblyCSharp
 		/// </summary>
 		public void Disparar ()
 		{
-			Transform naceBala = GameObject.Find ("NaceBala").transform;
+			Transform naceBala = GameObject.Find ("NaceBalaPlayer").transform;
 			GameObject balaClone = Instantiate (prefabBala, naceBala.position, Quaternion.identity) as GameObject;
 			InformacionBala datosBala = balaClone.GetComponent<InformacionBala> ();
 			balaClone.GetComponent<InformacionBala> ().posicionOrigen = naceBala.position;

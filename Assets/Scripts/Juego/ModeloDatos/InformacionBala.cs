@@ -11,6 +11,8 @@ namespace AssemblyCSharp
 
 		public float velocidadBala = 10f;
 
+		public float azucar = 0;
+
 		void OnTriggerEnter2D (Collider2D other)
 		{
 			if (SePuedeChocar (other.tag)) {
@@ -25,7 +27,21 @@ namespace AssemblyCSharp
 		/// <param name="etiqueta">Etiqueta.</param>
 		private bool SePuedeChocar (String etiqueta)
 		{
-			return etiqueta != "Player" && etiqueta != "Escalera";
+			if (tag == "BalaEnemigo") {
+				return etiqueta != "Enemigo" && etiqueta != "Escalera";
+			} else {
+				return etiqueta != "Player" && etiqueta != "Escalera";
+			}
+		}
+
+		public float GetAzucar ()
+		{
+			return azucar;
+		}
+
+		public void SetAzucar (float _azucar)
+		{
+			azucar = _azucar;
 		}
 	}
 }

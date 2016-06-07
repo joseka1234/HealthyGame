@@ -73,6 +73,7 @@
      <Compile Include="Assets\Scripts\Juego\IA\EnemigoSaltador.cs" />
      <Compile Include="Assets\Scripts\Juego\IA\EnemigoSeguidor.cs" />
      <Compile Include="Assets\Scripts\Juego\IA\EnemigoSeguidorAereo.cs" />
+     <Compile Include="Assets\Scripts\Juego\IA\JefeMundo1.cs" />
      <Compile Include="Assets\Scripts\Juego\ModeloDatos\InformacionBala.cs" />
      <Compile Include="Assets\Scripts\Juego\ModeloDatos\Texto.cs" />
      <Compile Include="Assets\Scripts\Minijuegos\Insulina\ControladorMinijuegoInsulina.cs" />
