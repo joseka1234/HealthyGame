@@ -73,15 +73,21 @@ namespace AssemblyCSharp
 
 		private float DescensoAzucar { get; set; }
 
+		void Awake ()
+		{
+			animaciones = GetComponent<Animator> ();
+		}
+
 		// Use this for initialization
 		void Start ()
 		{
-			gameObject.transform.position = GameObject.FindGameObjectWithTag ("Respawn").transform.position;
+			GameObject[] RespawnPositions = GameObject.FindGameObjectsWithTag ("Respawn");
+			gameObject.transform.position = RespawnPositions [RespawnPositions.Length - 1].transform.position;
 			pausa = false;
 			enSuelo = true;
 			invencible = false;
 			muerto = false;
-			animaciones = GetComponent<Animator> ();
+
 			body = GetComponent<Rigidbody2D> ();
 			textosAMostrar = new List<string> ();
 			body.gravityScale = gravedad;

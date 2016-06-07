@@ -5,8 +5,12 @@ public class EscenaActual : MonoBehaviour
 {
 	// Use this for initialization
 	void Start ()
-	{
-		DontDestroyOnLoad (gameObject);
+	{	
+		if (GameObject.FindGameObjectsWithTag ("IndicadorEscena").Length >= 2) {
+			Destroy (GameObject.FindGameObjectsWithTag ("IndicadorEscena") [0]);
+		} else {
+			DontDestroyOnLoad (gameObject);
+		}
 	}
 
 	/// <summary>

@@ -1,14 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Juego\Controladores\CheckPoint.cs">
-    <Files>
-      <File FileName="Assets\Scripts\Minijuegos\MedirAzucar\Pinchazo.cs" Line="55" Column="80" />
-      <File FileName="Assets\Scripts\Minijuegos\MedirAzucar\Tira.cs" Line="43" Column="54" />
-      <File FileName="Assets\Scripts\Juego\Controladores\CheckPoint.cs" Line="18" Column="2" />
-      <File FileName="Assets\Scripts\Juego\Cinematica\Cinematica.cs" Line="23" Column="42" />
-      <File FileName="Assets\Scripts\Juego\Controladores\PlayerController.cs" Line="397" Column="10" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

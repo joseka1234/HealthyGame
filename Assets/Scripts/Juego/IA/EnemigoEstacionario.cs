@@ -3,11 +3,12 @@ using System.Collections;
 
 // TODO: Existe un bug por el que si tocamos a un enemigo estacionario su rutina de movimiento se bugea.
 // PosibleSolución: Hacer que el enemigo estacionario muera al tocar al personaje.
+// FIXME: Las rutinas de movimiento no funcionan NI DE COÑA.
 namespace AssemblyCSharp
 {
 	public class EnemigoEstacionario : Enemigo
 	{
-		private const float CONSTANTE_CERCANIA = 0.01f;
+		private const float CONSTANTE_CERCANIA = 0.0001f;
 
 		// Factor de frenado para el Lerp
 		public float velocidad = 1;
@@ -24,7 +25,7 @@ namespace AssemblyCSharp
 
 		void Start ()
 		{
-			posicionComienzo = this.transform.position;
+			posicionComienzo = transform.position;
 			SeProduceCambio = true;
 			posicionDestinoActual = posicionDestino.transform.position;
 			tiempoComienzo = Time.time;
@@ -58,12 +59,14 @@ namespace AssemblyCSharp
 		public void CambiarPosicionDestinoActual ()
 		{
 			if (posicionDestinoActual == posicionComienzo) {
+				Debug.Log ("Chivato");
 				posicionDestinoActual = posicionDestino.transform.position;
 			} else {
+				Debug.Log ("Chivato2");
 				posicionDestinoActual = posicionComienzo;
 			}
 
-			posicionComienzo = this.transform.position;
+			posicionComienzo = transform.position;
 			tiempoComienzo = Time.time;
 		}
 

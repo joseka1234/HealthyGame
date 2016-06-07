@@ -9,6 +9,7 @@ public class MoverPlataforma : MonoBehaviour
 	public float tiempoEspera;
 	public float velocidadPlataforma;
 	public bool retorno;
+	public bool ascensor;
 
 	private int posicionActual { get; set; }
 
@@ -33,13 +34,15 @@ public class MoverPlataforma : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		if (posicionDestinoActual != transform.position) {
-			SeProduceCambio = true;
-			Desplazar ();
-		} else {
-			if (SeProduceCambio) {
-				SeProduceCambio = false;
-				StartCoroutine (EjecutarEspera ());
+		if (!ascensor) {
+			if (posicionDestinoActual != transform.position) {
+				SeProduceCambio = true;
+				Desplazar ();
+			} else {
+				if (SeProduceCambio) {
+					SeProduceCambio = false;
+					StartCoroutine (EjecutarEspera ());
+				}
 			}
 		}
 	}
@@ -90,6 +93,10 @@ public class MoverPlataforma : MonoBehaviour
 		if (other.transform.tag == "Player") {
 			other.transform.parent = transform;
 			PlayerController.enSuelo = true;
+			if (ascensor) {
+				ascensor = false;
+				tiempoComienzo = Time.time;
+			}
 		}
 	}
 
