@@ -4,11 +4,11 @@ using System.Collections;
 // TODO: Existe un bug por el que si tocamos a un enemigo estacionario su rutina de movimiento se bugea.
 // PosibleSolución: Hacer que el enemigo estacionario muera al tocar al personaje.
 // FIXME: Las rutinas de movimiento no funcionan NI DE COÑA.
+
 namespace AssemblyCSharp
 {
 	public class EnemigoEstacionario : Enemigo
 	{
-		private const float CONSTANTE_CERCANIA = 0.0001f;
 
 		// Factor de frenado para el Lerp
 		public float velocidad = 1;
@@ -19,6 +19,8 @@ namespace AssemblyCSharp
 
 		private Vector3 posicionDestinoActual { get; set; }
 
+		private Vector3 posicionInterno { get; set; }
+
 		private bool SeProduceCambio { get; set; }
 
 		private float tiempoComienzo { get; set; }
@@ -27,6 +29,7 @@ namespace AssemblyCSharp
 		{
 			posicionComienzo = transform.position;
 			SeProduceCambio = true;
+			posicionInterno = posicionComienzo;
 			posicionDestinoActual = posicionDestino.transform.position;
 			tiempoComienzo = Time.time;
 		}
@@ -34,7 +37,7 @@ namespace AssemblyCSharp
 
 		public override void Movimiento ()
 		{
-			if (DistanciaAObjetivo () > CONSTANTE_CERCANIA) {
+			if (transform.position != posicionDestinoActual) {
 				SeProduceCambio = true;
 				Desplazar ();
 			} else {
@@ -58,24 +61,21 @@ namespace AssemblyCSharp
 
 		public void CambiarPosicionDestinoActual ()
 		{
-			if (posicionDestinoActual == posicionComienzo) {
-				Debug.Log ("Chivato");
+			if (transform.position == posicionComienzo) {
 				posicionDestinoActual = posicionDestino.transform.position;
-			} else {
-				Debug.Log ("Chivato2");
+			} else if (transform.position == posicionDestino.transform.position) {
 				posicionDestinoActual = posicionComienzo;
 			}
-
-			posicionComienzo = transform.position;
+			posicionInterno = transform.position;
 			tiempoComienzo = Time.time;
 		}
 
 		public void Desplazar ()
 		{
 			float distanciaCubierta = (Time.time - tiempoComienzo) * velocidad;
-			float distanciaAObjetivo = Vector3.Distance (posicionComienzo, posicionDestinoActual);
+			float distanciaAObjetivo = Vector3.Distance (posicionInterno, posicionDestinoActual);
 			float fraccionViaje = distanciaCubierta / distanciaAObjetivo;
-			transform.position = Vector3.Lerp (posicionComienzo, posicionDestinoActual, fraccionViaje);
+			transform.position = Vector3.Lerp (posicionInterno, posicionDestinoActual, fraccionViaje);
 		}
 
 		public override void RecibeGolpe ()
