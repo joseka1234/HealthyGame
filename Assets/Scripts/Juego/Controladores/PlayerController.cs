@@ -220,17 +220,14 @@ namespace AssemblyCSharp
 				}
 			}
 			// Controles de gameplay
-			// TODO: Arreglar el problema con quedarse pegado a las paredes
 			if (controlesActivados && !muerto) {
 				if (Input.GetKey (KeyCode.A) || Input.GetKey (KeyCode.LeftArrow)) {
 					if (Atascado () && !face) {
-						// TODO: Que hacemos con los atascos??
 						return;
 					}
 					CaminarIzquierda ();
 				} else if (Input.GetKey (KeyCode.D) || Input.GetKey (KeyCode.RightArrow)) {
 					if (Atascado () && face) {
-						// TODO: Que hacemos con los atascos??
 						return;
 					}
 					CaminarDerecha ();

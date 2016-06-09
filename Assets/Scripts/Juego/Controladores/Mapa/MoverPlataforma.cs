@@ -92,7 +92,6 @@ public class MoverPlataforma : MonoBehaviour
 	{
 		if (other.transform.tag == "Player") {
 			other.transform.parent = transform;
-			PlayerController.enSuelo = true;
 			if (ascensor) {
 				ascensor = false;
 				tiempoComienzo = Time.time;
@@ -104,7 +103,6 @@ public class MoverPlataforma : MonoBehaviour
 	{
 		if (other.transform.tag == "Player") {
 			other.transform.parent = GameObject.Find ("GameScene").transform;
-			PlayerController.enSuelo = false;
 		}
 	}
 }
