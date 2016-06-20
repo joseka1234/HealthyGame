@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: a466d64cd7f485d40a5c954807935e0c
+timeCreated: 1466435710
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BalasEnemigo_14
+    21300002: BalasEnemigo_22
+    21300004: BalasEnemigo_87
+    21300006: BalasEnemigo_90
+    21300008: BalasEnemigo_91
+    21300010: BalasEnemigo_99
+    21300012: BalasEnemigo_102
+    21300014: BalasEnemigo_103
+    21300016: BalasEnemigo_111
+    21300018: BalasEnemigo_114
+    21300020: BalasEnemigo_115
+    21300022: BalasEnemigo_116
+    21300024: BalasEnemigo_146
+    21300026: BalasEnemigo_147
+    21300028: BalasEnemigo_153
+    21300030: BalasEnemigo_160
+    21300032: BalasEnemigo_166
+    21300034: BalasEnemigo_173
+    21300036: BalasEnemigo_179
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BalasEnemigo_87
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 58
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BalasEnemigo_90
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 58
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BalasEnemigo_91
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 58
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BalasEnemigo_99
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 58
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BalasEnemigo_102
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 58
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BalasEnemigo_103
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 58
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BalasEnemigo_111
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 58
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BalasEnemigo_114
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 58
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BalasEnemigo_115
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 58
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BalasEnemigo_147
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 15
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 17}
+        - {x: -16.5, y: 9}
+        - {x: -16.5, y: -12}
+        - {x: -12.5, y: -16}
+        - {x: 10.5, y: -16}
+        - {x: 16.5, y: -14}
+        - {x: 16.5, y: 16}
+        - {x: 12.5, y: 17}
+    - name: BalasEnemigo_153
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 18
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BalasEnemigo_160
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 10
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BalasEnemigo_166
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 18
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BalasEnemigo_173
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 10
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BalasEnemigo_179
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 18
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

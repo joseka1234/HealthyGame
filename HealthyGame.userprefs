@@ -2,8 +2,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Juego\IA\EnemigoSaltador.cs">
     <Files>
-      <File FileName="Assets\Scripts\Juego\IA\EnemigoSaltador.cs" Line="41" Column="1" />
-      <File FileName="Assets\Scripts\Juego\IA\EnemigoCaminante.cs" Line="36" Column="4" />
+      <File FileName="Assets\Scripts\Juego\IA\EnemigoSaltador.cs" Line="23" Column="25" />
+      <File FileName="Assets\Scripts\Juego\IA\EnemigoCaminante.cs" Line="49" Column="16" />
+      <File FileName="Assets\Scripts\Juego\ModeloDatos\InformacionBala.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Juego\IA\Enemigo.cs" Line="39" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

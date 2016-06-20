@@ -25,22 +25,34 @@ namespace AssemblyCSharp
 				vidas--;
 			}
 			if (golpePorLaDerecha && MoviendoHaciaDerecha ()) {
-				speed = -speed;
+				CambiarDireccion ();
 			} else if (!golpePorLaDerecha && !MoviendoHaciaDerecha ()) {
-				speed = -speed;
+				CambiarDireccion ();
 			}
 		}
 
 		void OnTriggerEnter2D (Collider2D other)
 		{
 			if (other.tag == "Suelo") {
-				speed = -speed;
+				CambiarDireccion ();
 			}
+
 			if (other.tag == "Bala") {
 				golpePorLaDerecha = other.transform.position.x > transform.position.x;
 				RecibeGolpe ();
 				Destroy (other.gameObject);
 			}
+		}
+
+		private void CambiarDireccion ()
+		{
+			speed *= -1;
+			if (gameObject.GetComponent<SpriteRenderer> ().flipX) {
+				gameObject.GetComponent<SpriteRenderer> ().flipX = false;
+			} else {
+				gameObject.GetComponent<SpriteRenderer> ().flipX = true;
+			}
+
 		}
 
 		private bool MoviendoHaciaDerecha ()

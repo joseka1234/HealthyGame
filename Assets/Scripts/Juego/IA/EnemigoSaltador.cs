@@ -8,15 +8,30 @@ namespace AssemblyCSharp
 		public float saltoVertical = 10f;
 		public float esperaEntreSaltos = 10f;
 
+		private float tiempo { get; set; }
+
+		private Animator animaciones;
+
+		void Start ()
+		{
+			tiempo = Time.time;
+			animaciones = GetComponent<Animator> ();
+		}
+
 		public override void Movimiento ()
 		{
 			if (EstaEnSuelo ()) {
-				SaltoDiagonal ();
+				animaciones.SetBool ("Salto", false);
+				if (Time.time - tiempo >= esperaEntreSaltos) {
+					tiempo = Time.time;
+					SaltoDiagonal ();
+				}
 			}
 		}
 
 		private void SaltoDiagonal ()
 		{
+			animaciones.SetBool ("Salto", true);
 			Rigidbody2D body = GetComponent<Rigidbody2D> ();
 			body.velocity = new Vector2 (-saltoHorizontal, saltoVertical);
 		}
