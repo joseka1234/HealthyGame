@@ -3,7 +3,6 @@ using System.Collections;
 
 // TODO: Existe un bug por el que si tocamos a un enemigo estacionario su rutina de movimiento se bugea.
 // PosibleSolución: Hacer que el enemigo estacionario muera al tocar al personaje.
-// FIXME: Las rutinas de movimiento no funcionan NI DE COÑA.
 
 namespace AssemblyCSharp
 {
@@ -80,7 +79,10 @@ namespace AssemblyCSharp
 
 		public override void RecibeGolpe ()
 		{
-			// TODO: Implementar el knockback y tal
+			if (!estadoInvencibilidad) {
+				StartCoroutine (EstadoInvencible ());
+				vidas--;
+			}
 		}
 	}
 }

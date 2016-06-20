@@ -381,14 +381,9 @@ namespace AssemblyCSharp
 
 		void OnCollisionEnter2D (Collision2D other)
 		{
-			if (other.collider.tag == "Enemigo" && !invencible) {
-				if (other.gameObject.GetComponent<Enemigo> ().GetAzucarProporcionada () > 0) {
-					azucar += other.gameObject.GetComponent<Enemigo> ().GetAzucarProporcionada ();
-				} else {
-					// TODO: Se implementarán enemigos que restén azucar??
-					throw new Exception ("No puede ser que un enemigo no proporcione azucar!");
-				}
-				golpePorLaDerecha |= other.transform.position.x > transform.position.x;
+			if ((other.collider.tag == "Enemigo") && !invencible) {
+				azucar += other.gameObject.GetComponent<Enemigo> ().GetAzucarProporcionada ();
+				golpePorLaDerecha = other.transform.position.x > transform.position.x;
 				RecibeGolpe ();
 				other.collider.GetComponent<Enemigo> ().RecibeGolpe ();
 			}
@@ -400,6 +395,7 @@ namespace AssemblyCSharp
 				Morir ();
 			} else if (other.tag == "BalaEnemigo") {
 				azucar += other.GetComponent<InformacionBala> ().GetAzucar ();
+				golpePorLaDerecha = other.transform.position.x > transform.position.x;
 				RecibeGolpe ();
 			}
 		}

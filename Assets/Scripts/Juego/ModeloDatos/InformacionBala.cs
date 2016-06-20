@@ -28,9 +28,9 @@ namespace AssemblyCSharp
 		private bool SePuedeChocar (String etiqueta)
 		{
 			if (tag == "BalaEnemigo") {
-				return etiqueta != "Enemigo" && etiqueta != "Escalera";
+				return etiqueta != "Enemigo" && etiqueta != "Escalera" && etiqueta != "Bala";
 			} else {
-				return etiqueta != "Player" && etiqueta != "Escalera";
+				return etiqueta != "Player" && etiqueta != "Escalera" && etiqueta != "BalaEnemigo";
 			}
 		}
 

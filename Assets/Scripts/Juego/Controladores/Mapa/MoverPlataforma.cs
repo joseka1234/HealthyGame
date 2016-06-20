@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System.Collections;
-using AssemblyCSharp;
 
 public class MoverPlataforma : MonoBehaviour
 {
@@ -10,6 +9,7 @@ public class MoverPlataforma : MonoBehaviour
 	public float velocidadPlataforma;
 	public bool retorno;
 	public bool ascensor;
+	public bool PlataformaEspecial;
 
 	private int posicionActual { get; set; }
 
@@ -26,7 +26,7 @@ public class MoverPlataforma : MonoBehaviour
 	{
 		posicionActual = 0;
 		tiempoComienzo = Time.time;
-		posicionComienzo = this.transform.position;
+		posicionComienzo = transform.position;
 		SeProduceCambio = true;
 		posicionDestinoActual = posicionesDestino [posicionActual].transform.position;
 	}
@@ -91,7 +91,9 @@ public class MoverPlataforma : MonoBehaviour
 	void OnTriggerStay2D (Collider2D other)
 	{
 		if (other.transform.tag == "Player") {
-			other.transform.parent = transform;
+			if (!PlataformaEspecial) {
+				other.transform.parent = transform;
+			}
 			if (ascensor) {
 				ascensor = false;
 				tiempoComienzo = Time.time;

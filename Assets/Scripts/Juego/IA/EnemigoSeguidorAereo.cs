@@ -15,7 +15,10 @@ namespace AssemblyCSharp
 
 		public override void RecibeGolpe ()
 		{
-			// TODO: Implementar el knockback y tal
+			if (!estadoInvencibilidad) {
+				StartCoroutine (EstadoInvencible ());
+				vidas--;
+			}
 		}
 	}
 }

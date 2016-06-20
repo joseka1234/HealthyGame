@@ -37,7 +37,7 @@ namespace AssemblyCSharp
 				speed = -speed;
 			}
 			if (other.tag == "Bala") {
-				golpePorLaDerecha |= other.transform.position.x > transform.position.x;
+				golpePorLaDerecha = other.transform.position.x > transform.position.x;
 				RecibeGolpe ();
 				Destroy (other.gameObject);
 			}
