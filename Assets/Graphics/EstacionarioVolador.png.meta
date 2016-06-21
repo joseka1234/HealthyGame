@@ -1,0 +1,643 @@
+fileFormatVersion: 2
+guid: 724bcb2d835e4db44aa1bcde209ebfc2
+timeCreated: 1466509036
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EstacionarioVolador_0
+    21300002: EstacionarioVolador_1
+    21300004: EstacionarioVolador_2
+    21300006: EstacionarioVolador_3
+    21300008: EstacionarioVolador_4
+    21300010: EstacionarioVolador_5
+    21300012: EstacionarioVolador_6
+    21300014: EstacionarioVolador_7
+    21300016: EstacionarioVolador_8
+    21300018: EstacionarioVolador_9
+    21300020: EstacionarioVolador_10
+    21300022: EstacionarioVolador_11
+    21300024: EstacionarioVolador_12
+    21300026: EstacionarioVolador_13
+    21300028: EstacionarioVolador_14
+    21300030: EstacionarioVolador_15
+    21300032: EstacionarioVolador_16
+    21300034: EstacionarioVolador_17
+    21300036: EstacionarioVolador_18
+    21300038: EstacionarioVolador_19
+    21300040: EstacionarioVolador_20
+    21300042: EstacionarioVolador_21
+    21300044: EstacionarioVolador_22
+    21300046: EstacionarioVolador_23
+    21300048: EstacionarioVolador_24
+    21300050: EstacionarioVolador_25
+    21300052: EstacionarioVolador_26
+    21300054: EstacionarioVolador_27
+    21300056: EstacionarioVolador_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: EstacionarioVolador_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 617
+        width: 53
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 36.5}
+        - {x: -19.5, y: 9.5}
+        - {x: -26.5, y: -10.5}
+        - {x: -26.5, y: -32.5}
+        - {x: -8.5, y: -36.5}
+        - {x: 22.5, y: -36.5}
+        - {x: 26.5, y: 2.5}
+        - {x: 26.5, y: 36.5}
+    - name: EstacionarioVolador_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 616
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 37}
+        - {x: 16, y: 34}
+        - {x: 13, y: 26}
+        - {x: 12, y: 19}
+        - {x: 7, y: 37}
+        - {x: 1, y: 37}
+        - {x: -6, y: 25}
+        - {x: -22, y: -1}
+        - {x: -25, y: -10}
+        - {x: -25, y: -30}
+        - {x: 6, y: -37}
+        - {x: 24, y: -37}
+        - {x: 24, y: -26}
+        - {x: 25, y: -17}
+        - {x: 25, y: 37}
+    - name: EstacionarioVolador_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 615
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 27.5}
+        - {x: -31.5, y: 11.5}
+        - {x: -31.5, y: -25.5}
+        - {x: -23.5, y: -27.5}
+        - {x: 22.5, y: -27.5}
+        - {x: 31.5, y: -4.5}
+        - {x: 31.5, y: 27.5}
+    - name: EstacionarioVolador_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 615
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 36}
+        - {x: 10, y: 28}
+        - {x: 7, y: 21}
+        - {x: 0, y: 30}
+        - {x: -7, y: 36}
+        - {x: -15, y: 36}
+        - {x: -26, y: -12}
+        - {x: -26, y: -23}
+        - {x: -17, y: -34}
+        - {x: -7, y: -36}
+        - {x: 22, y: -36}
+        - {x: 26, y: 16}
+        - {x: 26, y: 36}
+    - name: EstacionarioVolador_4
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 558
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 23}
+        - {x: -33, y: 4}
+        - {x: -33, y: -14}
+        - {x: -18, y: -23}
+        - {x: 28, y: -23}
+        - {x: 33, y: -17}
+        - {x: 33, y: 19}
+        - {x: 25, y: 23}
+    - name: EstacionarioVolador_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 560
+        width: 63
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 22.5}
+        - {x: -31.5, y: 10.5}
+        - {x: -31.5, y: -10.5}
+        - {x: -28.5, y: -11.5}
+        - {x: -7.5, y: -20.5}
+        - {x: -2.5, y: -22.5}
+        - {x: 16.5, y: -22.5}
+        - {x: 31.5, y: 2.5}
+        - {x: 31.5, y: 14.5}
+        - {x: 19.5, y: 22.5}
+    - name: EstacionarioVolador_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 562
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 24}
+        - {x: -33, y: 5}
+        - {x: -33, y: -19}
+        - {x: -12, y: -24}
+        - {x: 16, y: -24}
+        - {x: 33, y: 3}
+        - {x: 33, y: 19}
+        - {x: 26, y: 24}
+    - name: EstacionarioVolador_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 479
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 37}
+        - {x: -26.5, y: 1}
+        - {x: -26.5, y: -24}
+        - {x: -9.5, y: -35}
+        - {x: -4.5, y: -37}
+        - {x: 10.5, y: -37}
+        - {x: 24.5, y: 4}
+        - {x: 26.5, y: 24}
+        - {x: 26.5, y: 37}
+    - name: EstacionarioVolador_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 478
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 37.5}
+        - {x: -26.5, y: 7.5}
+        - {x: -26.5, y: -22.5}
+        - {x: -14.5, y: -33.5}
+        - {x: -5.5, y: -37.5}
+        - {x: 7.5, y: -37.5}
+        - {x: 19.5, y: 2.5}
+        - {x: 26.5, y: 24.5}
+        - {x: 26.5, y: 37.5}
+    - name: EstacionarioVolador_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 480
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 32.5}
+        - {x: -31.5, y: -17.5}
+        - {x: -16.5, y: -32.5}
+        - {x: 7.5, y: -32.5}
+        - {x: 31.5, y: 23.5}
+        - {x: 31.5, y: 32.5}
+    - name: EstacionarioVolador_10
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 362
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 31.5}
+        - {x: -31.5, y: -27.5}
+        - {x: -28.5, y: -31.5}
+        - {x: 6.5, y: -31.5}
+        - {x: 31.5, y: -7.5}
+        - {x: 31.5, y: 31.5}
+    - name: EstacionarioVolador_11
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 360
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.5, y: 29}
+        - {x: -31.5, y: 19}
+        - {x: -31.5, y: -30}
+        - {x: -22.5, y: -40}
+        - {x: 13.5, y: -40}
+        - {x: 31.5, y: 6}
+        - {x: 31.5, y: 29}
+      - - {x: 24.5, y: 36}
+        - {x: 27.5, y: 37}
+        - {x: 27.5, y: 40}
+        - {x: 22.5, y: 40}
+        - {x: 22.5, y: 38}
+    - name: EstacionarioVolador_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 391
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 21}
+        - {x: -32.5, y: 10}
+        - {x: -32.5, y: -21}
+        - {x: 32.5, y: -21}
+        - {x: 32.5, y: 21}
+    - name: EstacionarioVolador_13
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 284
+        width: 40
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 35}
+        - {x: -20, y: -33}
+        - {x: -18, y: -35}
+        - {x: 20, y: -35}
+        - {x: 20, y: 35}
+    - name: EstacionarioVolador_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 283
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 35.5}
+        - {x: 7.5, y: 33.5}
+        - {x: 2.5, y: 17.5}
+        - {x: -0.5, y: 35.5}
+        - {x: -8.5, y: 35.5}
+        - {x: -19.5, y: 13.5}
+        - {x: -19.5, y: -35.5}
+        - {x: 19.5, y: -35.5}
+        - {x: 19.5, y: 35.5}
+    - name: EstacionarioVolador_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 282
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 26}
+        - {x: -25.5, y: -7}
+        - {x: -22.5, y: -8}
+        - {x: -20.5, y: -24}
+        - {x: -19.5, y: -26}
+        - {x: 20.5, y: -26}
+        - {x: 25.5, y: -25}
+        - {x: 25.5, y: 26}
+    - name: EstacionarioVolador_16
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 282
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 34.5}
+        - {x: -20.5, y: -31.5}
+        - {x: -15.5, y: -34.5}
+        - {x: 8.5, y: -34.5}
+        - {x: 17.5, y: -11.5}
+        - {x: 20.5, y: 22.5}
+        - {x: 20.5, y: 34.5}
+    - name: EstacionarioVolador_17
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 224
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 21}
+        - {x: -27, y: -21}
+        - {x: 21, y: -21}
+        - {x: 27, y: -19}
+        - {x: 27, y: 19}
+        - {x: 18, y: 21}
+    - name: EstacionarioVolador_18
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 227
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 20.5}
+        - {x: -26.5, y: -16.5}
+        - {x: -21.5, y: -20.5}
+        - {x: 22.5, y: -20.5}
+        - {x: 26.5, y: -7.5}
+        - {x: 26.5, y: 15.5}
+        - {x: 19.5, y: 20.5}
+    - name: EstacionarioVolador_19
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 228
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.5, y: 23}
+        - {x: -27.5, y: -23}
+        - {x: 25.5, y: -23}
+        - {x: 27.5, y: -21}
+        - {x: 27.5, y: 19}
+        - {x: 21.5, y: 23}
+    - name: EstacionarioVolador_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 100
+        width: 56
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 39.5}
+        - {x: -25, y: 15.5}
+        - {x: -28, y: 3.5}
+        - {x: -28, y: -22.5}
+        - {x: -23, y: -23.5}
+        - {x: -14, y: -20.5}
+        - {x: -16, y: -29.5}
+        - {x: -13, y: -39.5}
+        - {x: -1, y: -39.5}
+        - {x: 8, y: -36.5}
+        - {x: 25, y: -12.5}
+        - {x: 28, y: 8.5}
+        - {x: 28, y: 39.5}
+    - name: EstacionarioVolador_21
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 95
+        width: 53
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 41}
+        - {x: -26.5, y: 24}
+        - {x: -26.5, y: -41}
+        - {x: 11.5, y: -41}
+        - {x: 26.5, y: -6}
+        - {x: 26.5, y: 41}
+    - name: EstacionarioVolador_22
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 97
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 40.5}
+        - {x: -27.5, y: 11.5}
+        - {x: -27.5, y: -33.5}
+        - {x: -19.5, y: -40.5}
+        - {x: 11.5, y: -40.5}
+        - {x: 27.5, y: -4.5}
+        - {x: 27.5, y: 40.5}
+    - name: EstacionarioVolador_23
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 107
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 16}
+        - {x: 17, y: 32}
+        - {x: 7, y: 32}
+        - {x: -25, y: 10}
+        - {x: -26, y: 7}
+        - {x: -26, y: -25}
+        - {x: -13, y: -32}
+        - {x: 11, y: -32}
+        - {x: 26, y: -3}
+        - {x: 26, y: 22}
+        - {x: 23, y: 21}
+    - name: EstacionarioVolador_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 39
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 25}
+        - {x: -25, y: -1}
+        - {x: -25, y: -19}
+        - {x: -15, y: -25}
+        - {x: 15, y: -25}
+        - {x: 25, y: -3}
+        - {x: 25, y: 14}
+        - {x: 15, y: 25}
+    - name: EstacionarioVolador_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 41
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 23}
+        - {x: -15, y: 23}
+        - {x: -20, y: 17}
+        - {x: -21, y: 13}
+        - {x: -21, y: -10}
+        - {x: 2, y: -23}
+        - {x: 21, y: -23}
+        - {x: 21, y: 1}
+        - {x: 19, y: 16}
+    - name: EstacionarioVolador_26
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 31
+        width: 33
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 29.5}
+        - {x: -14.5, y: 29.5}
+        - {x: -16.5, y: 26.5}
+        - {x: -16.5, y: -17.5}
+        - {x: -12.5, y: -27.5}
+        - {x: -6.5, y: -29.5}
+        - {x: 8.5, y: -29.5}
+        - {x: 16.5, y: -22.5}
+        - {x: 16.5, y: 20.5}
+        - {x: 15.5, y: 23.5}
+    - name: EstacionarioVolador_27
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 32
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EstacionarioVolador_28
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 15
+        width: 58
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 37}
+        - {x: 7, y: 37}
+        - {x: -24, y: 12}
+        - {x: -29, y: 6}
+        - {x: -29, y: -33}
+        - {x: -21, y: -37}
+        - {x: 7, y: -37}
+        - {x: 20, y: -17}
+        - {x: 29, y: 14}
+        - {x: 29, y: 34}
+    outline: []
+  spritePackingTag: Enemigos
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

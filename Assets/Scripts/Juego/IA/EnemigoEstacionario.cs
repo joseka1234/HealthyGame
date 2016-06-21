@@ -24,8 +24,11 @@ namespace AssemblyCSharp
 
 		private float tiempoComienzo { get; set; }
 
+		public float Azucar = 20f;
+
 		void Start ()
 		{
+			SetAzucarProporcionada (Azucar);
 			posicionComienzo = transform.position;
 			SeProduceCambio = true;
 			posicionInterno = posicionComienzo;
@@ -44,6 +47,12 @@ namespace AssemblyCSharp
 					SeProduceCambio = false;
 					StartCoroutine (EjecutarEspera ());
 				}
+			}
+
+			if (player.transform.position.x > transform.position.x) {
+				GetComponent<SpriteRenderer> ().flipX = true;
+			} else {
+				GetComponent<SpriteRenderer> ().flipX = false;
 			}
 		}
 
@@ -82,6 +91,13 @@ namespace AssemblyCSharp
 			if (!estadoInvencibilidad) {
 				StartCoroutine (EstadoInvencible ());
 				vidas--;
+			}
+		}
+
+		void OnTriggerEnter2D (Collider2D other)
+		{
+			if (other.tag == "Bala") {
+				RecibeGolpe ();
 			}
 		}
 	}

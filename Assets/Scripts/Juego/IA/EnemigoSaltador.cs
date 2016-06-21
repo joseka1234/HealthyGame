@@ -12,8 +12,11 @@ namespace AssemblyCSharp
 
 		private Animator animaciones;
 
+		public float Azucar = 20f;
+
 		void Start ()
 		{
+			SetAzucarProporcionada (Azucar);
 			tiempo = Time.time;
 			animaciones = GetComponent<Animator> ();
 		}

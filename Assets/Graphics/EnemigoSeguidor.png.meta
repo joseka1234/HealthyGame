@@ -1,0 +1,989 @@
+fileFormatVersion: 2
+guid: 56c011003d608ff40a3a780323ec9668
+timeCreated: 1466511728
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EnemigoSeguidor_0
+    21300002: EnemigoSeguidor_1
+    21300004: EnemigoSeguidor_2
+    21300006: EnemigoSeguidor_3
+    21300008: EnemigoSeguidor_4
+    21300010: EnemigoSeguidor_5
+    21300012: EnemigoSeguidor_6
+    21300014: EnemigoSeguidor_7
+    21300016: EnemigoSeguidor_8
+    21300018: EnemigoSeguidor_9
+    21300020: EnemigoSeguidor_10
+    21300022: EnemigoSeguidor_11
+    21300024: EnemigoSeguidor_12
+    21300026: EnemigoSeguidor_13
+    21300028: EnemigoSeguidor_14
+    21300030: EnemigoSeguidor_15
+    21300032: EnemigoSeguidor_16
+    21300034: EnemigoSeguidor_17
+    21300036: EnemigoSeguidor_18
+    21300038: EnemigoSeguidor_19
+    21300040: EnemigoSeguidor_20
+    21300042: EnemigoSeguidor_21
+    21300044: EnemigoSeguidor_22
+    21300046: EnemigoSeguidor_23
+    21300048: EnemigoSeguidor_24
+    21300050: EnemigoSeguidor_25
+    21300052: EnemigoSeguidor_26
+    21300054: EnemigoSeguidor_27
+    21300056: EnemigoSeguidor_28
+    21300058: EnemigoSeguidor_29
+    21300060: EnemigoSeguidor_30
+    21300062: EnemigoSeguidor_31
+    21300064: EnemigoSeguidor_32
+    21300066: EnemigoSeguidor_33
+    21300068: EnemigoSeguidor_34
+    21300070: EnemigoSeguidor_35
+    21300072: EnemigoSeguidor_36
+    21300074: EnemigoSeguidor_37
+    21300076: EnemigoSeguidor_38
+    21300078: EnemigoSeguidor_39
+    21300080: EnemigoSeguidor_40
+    21300082: EnemigoSeguidor_41
+    21300084: EnemigoSeguidor_42
+    21300086: EnemigoSeguidor_43
+    21300088: EnemigoSeguidor_44
+    21300090: EnemigoSeguidor_45
+    21300092: EnemigoSeguidor_46
+    21300094: EnemigoSeguidor_47
+    21300096: EnemigoSeguidor_48
+    21300098: EnemigoSeguidor_49
+    21300100: EnemigoSeguidor_50
+    21300102: EnemigoSeguidor_51
+    21300104: EnemigoSeguidor_52
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: EnemigoSeguidor_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 548
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 19.5}
+        - {x: -16.5, y: 10.5}
+        - {x: -16.5, y: -19.5}
+        - {x: 16.5, y: -19.5}
+        - {x: 16.5, y: 19.5}
+    - name: EnemigoSeguidor_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 548
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 20}
+        - {x: -16.5, y: 13}
+        - {x: -16.5, y: -19}
+        - {x: -10.5, y: -20}
+        - {x: 14.5, y: -20}
+        - {x: 16.5, y: -14}
+        - {x: 16.5, y: 11}
+        - {x: 11.5, y: 20}
+    - name: EnemigoSeguidor_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 548
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 20}
+        - {x: -16, y: 7}
+        - {x: -16, y: -14}
+        - {x: -15, y: -16}
+        - {x: -8, y: -20}
+        - {x: 16, y: -20}
+        - {x: 16, y: 20}
+    - name: EnemigoSeguidor_3
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 548
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 19.5}
+        - {x: -16.5, y: 10.5}
+        - {x: -16.5, y: -19.5}
+        - {x: 16.5, y: -19.5}
+        - {x: 16.5, y: 19.5}
+    - name: EnemigoSeguidor_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 548
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.5, y: 20}
+        - {x: -8.5, y: 20}
+        - {x: -16.5, y: 12}
+        - {x: -16.5, y: -20}
+        - {x: 16.5, y: -20}
+        - {x: 16.5, y: 18}
+    - name: EnemigoSeguidor_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 500
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -20}
+        - {x: 16, y: -20}
+        - {x: 16, y: 19}
+        - {x: 15, y: 20}
+        - {x: -14, y: 20}
+        - {x: -16, y: 19}
+    - name: EnemigoSeguidor_6
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 500
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 19}
+        - {x: -17.5, y: 18}
+        - {x: -17.5, y: -19}
+        - {x: 17.5, y: -19}
+        - {x: 17.5, y: 11}
+        - {x: 14.5, y: 19}
+    - name: EnemigoSeguidor_7
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 501
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 19.5}
+        - {x: -13.5, y: 14.5}
+        - {x: -16.5, y: 7.5}
+        - {x: -16.5, y: -16.5}
+        - {x: -10.5, y: -19.5}
+        - {x: 15.5, y: -19.5}
+        - {x: 16.5, y: -18.5}
+        - {x: 16.5, y: 9.5}
+        - {x: 12.5, y: 19.5}
+    - name: EnemigoSeguidor_8
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 501
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: -19.5}
+        - {x: 13, y: -19.5}
+        - {x: 17, y: -17.5}
+        - {x: 17, y: 15.5}
+        - {x: 15, y: 19.5}
+        - {x: -14, y: 19.5}
+        - {x: -17, y: 10.5}
+    - name: EnemigoSeguidor_9
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 500
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 19.5}
+        - {x: -17, y: 11.5}
+        - {x: -17, y: -16.5}
+        - {x: -7, y: -19.5}
+        - {x: 14, y: -19.5}
+        - {x: 17, y: -18.5}
+        - {x: 17, y: 17.5}
+        - {x: 15, y: 19.5}
+    - name: EnemigoSeguidor_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 452
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.5, y: 20}
+        - {x: -10.5, y: 20}
+        - {x: -16.5, y: 10}
+        - {x: -16.5, y: -16}
+        - {x: -9.5, y: -20}
+        - {x: 10.5, y: -20}
+        - {x: 16.5, y: -17}
+        - {x: 16.5, y: 11}
+        - {x: 15.5, y: 13}
+    - name: EnemigoSeguidor_11
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 452
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20}
+        - {x: -16, y: -15}
+        - {x: -12, y: -20}
+        - {x: 16, y: -20}
+        - {x: 16, y: 9}
+        - {x: 14, y: 20}
+    - name: EnemigoSeguidor_12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 453
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 19}
+        - {x: -16, y: -19}
+        - {x: 16, y: -19}
+        - {x: 16, y: 18}
+        - {x: 15, y: 19}
+    - name: EnemigoSeguidor_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 447
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EnemigoSeguidor_14
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 445
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 23.5}
+        - {x: -18, y: 11.5}
+        - {x: -18, y: -6.5}
+        - {x: -4, y: -23.5}
+        - {x: 18, y: -23.5}
+        - {x: 18, y: 22.5}
+        - {x: 16, y: 23.5}
+    - name: EnemigoSeguidor_15
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 445
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 23.5}
+        - {x: -18, y: 11.5}
+        - {x: -18, y: -6.5}
+        - {x: -4, y: -23.5}
+        - {x: 18, y: -23.5}
+        - {x: 18, y: 22.5}
+        - {x: 16, y: 23.5}
+    - name: EnemigoSeguidor_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 404
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 20}
+        - {x: -18.5, y: 11}
+        - {x: -18.5, y: -18}
+        - {x: -12.5, y: -20}
+        - {x: 16.5, y: -20}
+        - {x: 18.5, y: -17}
+        - {x: 18.5, y: 5}
+        - {x: 15.5, y: 20}
+    - name: EnemigoSeguidor_17
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 403
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 20}
+        - {x: -13, y: 20}
+        - {x: -17, y: 14}
+        - {x: -18, y: 11}
+        - {x: -18, y: -19}
+        - {x: -9, y: -20}
+        - {x: 12, y: -20}
+        - {x: 18, y: -18}
+        - {x: 18, y: 2}
+        - {x: 11, y: 17}
+    - name: EnemigoSeguidor_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 403
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 19.5}
+        - {x: -17.5, y: 9.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 13.5}
+        - {x: 16.5, y: 19.5}
+    - name: EnemigoSeguidor_19
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 395
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20.5}
+        - {x: -18, y: 15.5}
+        - {x: -18, y: -17.5}
+        - {x: -13, y: -20.5}
+        - {x: 18, y: -20.5}
+        - {x: 18, y: 7.5}
+        - {x: 15, y: 20.5}
+    - name: EnemigoSeguidor_20
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 396
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 19.5}
+        - {x: -17.5, y: 17.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 7.5}
+        - {x: 8.5, y: 19.5}
+    - name: EnemigoSeguidor_21
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 395
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 19.5}
+        - {x: -18, y: 10.5}
+        - {x: -18, y: -19.5}
+        - {x: 16, y: -19.5}
+        - {x: 18, y: -17.5}
+        - {x: 18, y: 8.5}
+        - {x: 15, y: 19.5}
+    - name: EnemigoSeguidor_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 354
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 18}
+        - {x: -17.5, y: 18}
+        - {x: -19.5, y: 15}
+        - {x: -19.5, y: -4}
+        - {x: -18.5, y: -8}
+        - {x: -13.5, y: -18}
+        - {x: 18.5, y: -18}
+        - {x: 19.5, y: -17}
+        - {x: 19.5, y: 6}
+        - {x: 12.5, y: 15}
+    - name: EnemigoSeguidor_23
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 348
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 19.5}
+        - {x: -17, y: 18.5}
+        - {x: -17, y: -17.5}
+        - {x: -15, y: -19.5}
+        - {x: 14, y: -19.5}
+        - {x: 17, y: -15.5}
+        - {x: 17, y: 12.5}
+        - {x: 13, y: 19.5}
+    - name: EnemigoSeguidor_24
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 348
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EnemigoSeguidor_25
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 348
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EnemigoSeguidor_26
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 292
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EnemigoSeguidor_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 292
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EnemigoSeguidor_28
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 292
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 20}
+        - {x: -16, y: 17}
+        - {x: -16, y: -17}
+        - {x: -14, y: -20}
+        - {x: 14, y: -20}
+        - {x: 16, y: -19}
+        - {x: 16, y: 20}
+    - name: EnemigoSeguidor_29
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 292
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 20}
+        - {x: -18.5, y: 11}
+        - {x: -18.5, y: -18}
+        - {x: -12.5, y: -20}
+        - {x: 16.5, y: -20}
+        - {x: 18.5, y: -17}
+        - {x: 18.5, y: 5}
+        - {x: 15.5, y: 20}
+    - name: EnemigoSeguidor_30
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 291
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 20}
+        - {x: -13, y: 20}
+        - {x: -17, y: 14}
+        - {x: -18, y: 11}
+        - {x: -18, y: -19}
+        - {x: -9, y: -20}
+        - {x: 12, y: -20}
+        - {x: 18, y: -18}
+        - {x: 18, y: 2}
+        - {x: 11, y: 17}
+    - name: EnemigoSeguidor_31
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 291
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 19.5}
+        - {x: -17.5, y: 9.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 13.5}
+        - {x: 16.5, y: 19.5}
+    - name: EnemigoSeguidor_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 243
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 20.5}
+        - {x: -18, y: 15.5}
+        - {x: -18, y: -17.5}
+        - {x: -13, y: -20.5}
+        - {x: 18, y: -20.5}
+        - {x: 18, y: 7.5}
+        - {x: 15, y: 20.5}
+    - name: EnemigoSeguidor_33
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 244
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 19.5}
+        - {x: -17.5, y: 17.5}
+        - {x: -17.5, y: -19.5}
+        - {x: 17.5, y: -19.5}
+        - {x: 17.5, y: 7.5}
+        - {x: 8.5, y: 19.5}
+    - name: EnemigoSeguidor_34
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 243
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 19.5}
+        - {x: -18, y: 10.5}
+        - {x: -18, y: -19.5}
+        - {x: 16, y: -19.5}
+        - {x: 18, y: -17.5}
+        - {x: 18, y: 8.5}
+        - {x: 15, y: 19.5}
+    - name: EnemigoSeguidor_35
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 180
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 19.5}
+        - {x: -16, y: 13.5}
+        - {x: -16, y: -19.5}
+        - {x: 12, y: -19.5}
+        - {x: 16, y: -12.5}
+        - {x: 16, y: 10.5}
+        - {x: 12, y: 19.5}
+    - name: EnemigoSeguidor_36
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 180
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 19.5}
+        - {x: -16, y: 13.5}
+        - {x: -16, y: -19.5}
+        - {x: 12, y: -19.5}
+        - {x: 16, y: -12.5}
+        - {x: 16, y: 10.5}
+        - {x: 12, y: 19.5}
+    - name: EnemigoSeguidor_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 179
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 20}
+        - {x: -10.5, y: 19}
+        - {x: -20.5, y: 12}
+        - {x: -20.5, y: -16}
+        - {x: -12.5, y: -20}
+        - {x: 10.5, y: -20}
+        - {x: 18.5, y: -16}
+        - {x: 20.5, y: -11}
+        - {x: 20.5, y: 16}
+        - {x: 18.5, y: 20}
+    - name: EnemigoSeguidor_38
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 147
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EnemigoSeguidor_39
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 148
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EnemigoSeguidor_40
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 146
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EnemigoSeguidor_41
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 147
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EnemigoSeguidor_42
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 146
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EnemigoSeguidor_43
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 147
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EnemigoSeguidor_44
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 107
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 17.5}
+        - {x: -19, y: 17.5}
+        - {x: -19, y: -17.5}
+        - {x: 17, y: -17.5}
+        - {x: 18, y: -14.5}
+        - {x: 19, y: -12.5}
+        - {x: 19, y: 4.5}
+    - name: EnemigoSeguidor_45
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 90
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 23.5}
+        - {x: -12, y: 23.5}
+        - {x: -16, y: 20.5}
+        - {x: -18, y: 7.5}
+        - {x: -18, y: -22.5}
+        - {x: -13, y: -23.5}
+        - {x: 9, y: -23.5}
+        - {x: 11, y: -22.5}
+        - {x: 18, y: -6.5}
+        - {x: 18, y: 22.5}
+    - name: EnemigoSeguidor_46
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 90
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 24}
+        - {x: -19.5, y: -24}
+        - {x: 1.5, y: -24}
+        - {x: 10.5, y: -20}
+        - {x: 19.5, y: -5}
+        - {x: 19.5, y: 19}
+        - {x: 16.5, y: 24}
+    - name: EnemigoSeguidor_47
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 90
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 23.5}
+        - {x: -15, y: 21.5}
+        - {x: -18, y: 0.5}
+        - {x: -18, y: -17.5}
+        - {x: -17, y: -18.5}
+        - {x: -14, y: -18.5}
+        - {x: -8, y: -23.5}
+        - {x: 16, y: -23.5}
+        - {x: 18, y: -9.5}
+        - {x: 18, y: 22.5}
+        - {x: 16, y: 23.5}
+    - name: EnemigoSeguidor_48
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 93
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 18.5}
+        - {x: -19, y: 14.5}
+        - {x: -19, y: -3.5}
+        - {x: -13, y: -18.5}
+        - {x: 13, y: -18.5}
+        - {x: 19, y: -14.5}
+        - {x: 19, y: 9.5}
+        - {x: 3, y: 18.5}
+    - name: EnemigoSeguidor_49
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 30
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 18.5}
+        - {x: -19, y: 18.5}
+        - {x: -19, y: -4.5}
+        - {x: -13, y: -18.5}
+        - {x: 10, y: -18.5}
+        - {x: 19, y: -15.5}
+        - {x: 19, y: 13.5}
+    - name: EnemigoSeguidor_50
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 27
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: EnemigoSeguidor_51
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 28
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 18.5}
+        - {x: -21, y: 17.5}
+        - {x: -21, y: -5.5}
+        - {x: -16, y: -18.5}
+        - {x: 19, y: -18.5}
+        - {x: 21, y: -16.5}
+        - {x: 21, y: 16.5}
+        - {x: 15, y: 18.5}
+    - name: EnemigoSeguidor_52
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 26
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: Enemigos
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

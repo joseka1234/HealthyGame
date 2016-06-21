@@ -25,7 +25,7 @@ TextureImporter:
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -45,9 +45,9 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 2048
+  maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -392,7 +392,7 @@ TextureImporter:
         - {x: 21.5, y: 20.5}
         - {x: 20.5, y: 21.5}
     outline: []
-  spritePackingTag: 
+  spritePackingTag: Enemigos
   userData: 
   assetBundleName: 
   assetBundleVariant: 
