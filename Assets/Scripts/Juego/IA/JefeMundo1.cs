@@ -27,7 +27,9 @@ public class JefeMundo1 : Enemigo
 		if (Time.time - tiempo >= 1.5f) {
 			Disparar ();
 			tiempo = Time.time;
-			SaltoDiagonal (saltoHorizontal, saltoVertical);
+			// FIXME: Arreglar este boss que está rotisimo!!
+			GetComponent<Animator> ().SetBool ("Salto", true);
+			//SaltoDiagonal (saltoHorizontal, saltoVertical);
 			saltoHorizontal *= -1;
 		}
 	}
@@ -45,13 +47,20 @@ public class JefeMundo1 : Enemigo
 	/// </summary>
 	private void Disparar ()
 	{
+
+		// TODO: Hacer que el disparo vaya dirigido siempre hacia el jugador!
 		GameObject balaClone = Instantiate (prefabBala, naceBala.transform.position, Quaternion.identity) as GameObject;
 		balaClone.tag = "BalaEnemigo";
 		InformacionBala datosBala = balaClone.GetComponent<InformacionBala> ();
 		balaClone.GetComponent<InformacionBala> ().posicionOrigen = naceBala.transform.position;
 		Rigidbody2D cuerpoBalaClone = balaClone.GetComponent<Rigidbody2D> ();
 		datosBala.SetAzucar (20);
-		cuerpoBalaClone.velocity = new Vector2 (-datosBala.velocidadBala, cuerpoBalaClone.velocity.y);
+
+		Vector3 vectorDireccion = player.transform.position - GameObject.Find ("Agregados/Enemigos/JefeMundo1/NaceBala").transform.position;
+		vectorDireccion.Normalize ();
+		Debug.Log (vectorDireccion);
+
+		cuerpoBalaClone.velocity = new Vector2 (datosBala.velocidadBala * vectorDireccion.x, datosBala.velocidadBala * vectorDireccion.y);
 		PlayerController.RotarObjeto (balaClone);
 		balaClone.transform.parent = GameObject.Find (PlayerController.BALAS).transform;
 	}
@@ -71,5 +80,12 @@ public class JefeMundo1 : Enemigo
 		GetComponent<Animator> ().SetBool ("Salto", true);
 		Rigidbody2D body = GetComponent<Rigidbody2D> ();
 		body.velocity = new Vector2 (-saltoHorizontal, saltoVertical);
+	}
+
+	void OnTriggerEnter2D (Collider2D other)
+	{
+		if (other.tag == "Bala") {
+			RecibeGolpe ();
+		}
 	}
 }
