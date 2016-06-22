@@ -4,9 +4,6 @@ using UnityEngine;
 public class JefeMundo1 : Enemigo
 {
 	private float tiempo;
-
-	public float saltoHorizontal = 10;
-	public float saltoVertical = 30;
 	public GameObject naceBala;
 	public GameObject prefabBala;
 	public float Azucar = 50f;
@@ -30,7 +27,6 @@ public class JefeMundo1 : Enemigo
 			// FIXME: Arreglar este boss que está rotisimo!!
 			GetComponent<Animator> ().SetBool ("Salto", true);
 			//SaltoDiagonal (saltoHorizontal, saltoVertical);
-			saltoHorizontal *= -1;
 		}
 	}
 
@@ -42,12 +38,9 @@ public class JefeMundo1 : Enemigo
 		}
 	}
 
-	/// <summary>
-	/// Disparar
-	/// </summary>
 	private void Disparar ()
 	{
-
+		const string BOSS = "Agregados/Enemigos/JefeMundo1";
 		// TODO: Hacer que el disparo vaya dirigido siempre hacia el jugador!
 		GameObject balaClone = Instantiate (prefabBala, naceBala.transform.position, Quaternion.identity) as GameObject;
 		balaClone.tag = "BalaEnemigo";
@@ -56,9 +49,8 @@ public class JefeMundo1 : Enemigo
 		Rigidbody2D cuerpoBalaClone = balaClone.GetComponent<Rigidbody2D> ();
 		datosBala.SetAzucar (20);
 
-		Vector3 vectorDireccion = player.transform.position - GameObject.Find ("Agregados/Enemigos/JefeMundo1/NaceBala").transform.position;
+		Vector3 vectorDireccion = player.transform.position - GameObject.Find (BOSS + "/NaceBala").transform.position;
 		vectorDireccion.Normalize ();
-		Debug.Log (vectorDireccion);
 
 		cuerpoBalaClone.velocity = new Vector2 (datosBala.velocidadBala * vectorDireccion.x, datosBala.velocidadBala * vectorDireccion.y);
 		PlayerController.RotarObjeto (balaClone);
@@ -68,18 +60,6 @@ public class JefeMundo1 : Enemigo
 	private bool EnSuelo ()
 	{
 		return GetComponent<Rigidbody2D> ().velocity.y == 0;
-	}
-
-	/// <summary>
-	/// Saltos the diagonal.
-	/// </summary>
-	/// <param name="saltoHorizontal">Salto horizontal.</param>
-	/// <param name="saltoVertical">Salto vertical.</param>
-	private void SaltoDiagonal (float saltoHorizontal, float saltoVertical)
-	{
-		GetComponent<Animator> ().SetBool ("Salto", true);
-		Rigidbody2D body = GetComponent<Rigidbody2D> ();
-		body.velocity = new Vector2 (-saltoHorizontal, saltoVertical);
 	}
 
 	void OnTriggerEnter2D (Collider2D other)
