@@ -105,7 +105,9 @@ namespace AssemblyCSharp
 		void FixedUpdate ()
 		{
 			if (Time.time - DescensoAzucar >= 1f) {
-				azucar--;
+				if (!pausa) {
+					azucar--;
+				}
 				DescensoAzucar = Time.time;
 			}
 			SetAzucar ();

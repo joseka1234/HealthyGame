@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Common\EscenaActual.cs" />
      <Compile Include="Assets\Scripts\Common\NoDestruir.cs" />
+     <Compile Include="Assets\Scripts\Juego\Animaciones\ContinuarCiclo.cs" />
      <Compile Include="Assets\Scripts\Juego\Animaciones\ContinuarCorriendo.cs" />
      <Compile Include="Assets\Scripts\Juego\Animaciones\TerminarAnimacion.cs" />
      <Compile Include="Assets\Scripts\Juego\Animaciones\TerminarCiclo.cs" />
