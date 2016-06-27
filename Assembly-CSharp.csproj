@@ -49,12 +49,14 @@
      <Compile Include="Assets\Scripts\Common\NoDestruir.cs" />
      <Compile Include="Assets\Scripts\Juego\Animaciones\ContinuarCorriendo.cs" />
      <Compile Include="Assets\Scripts\Juego\Animaciones\TerminarAnimacion.cs" />
+     <Compile Include="Assets\Scripts\Juego\Animaciones\TerminarCiclo.cs" />
      <Compile Include="Assets\Scripts\Juego\Cinematica\Animacion.cs" />
      <Compile Include="Assets\Scripts\Juego\Cinematica\Cinematica.cs" />
      <Compile Include="Assets\Scripts\Juego\Cinematica\Conversacion.cs" />
      <Compile Include="Assets\Scripts\Juego\Cinematica\ElementoCinematica.cs" />
      <Compile Include="Assets\Scripts\Juego\Cinematica\MensajeConversacion.cs" />
      <Compile Include="Assets\Scripts\Juego\Cinematica\Movimiento.cs" />
+     <Compile Include="Assets\Scripts\Juego\Controladores\CambiarFase.cs" />
      <Compile Include="Assets\Scripts\Juego\Controladores\CheckPoint.cs" />
      <Compile Include="Assets\Scripts\Juego\Controladores\ControladorTexto.cs" />
      <Compile Include="Assets\Scripts\Juego\Controladores\DetectorSuelo.cs" />

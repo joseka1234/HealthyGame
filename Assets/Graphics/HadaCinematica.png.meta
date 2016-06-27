@@ -1,0 +1,1977 @@
+fileFormatVersion: 2
+guid: 64553164cfe83684088035cbab0e9beb
+timeCreated: 1467051675
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HadaCinematica_0
+    21300002: HadaCinematica_1
+    21300004: HadaCinematica_2
+    21300006: HadaCinematica_3
+    21300008: HadaCinematica_4
+    21300010: HadaCinematica_5
+    21300012: HadaCinematica_6
+    21300014: HadaCinematica_7
+    21300016: HadaCinematica_8
+    21300018: HadaCinematica_9
+    21300020: HadaCinematica_10
+    21300022: HadaCinematica_11
+    21300024: HadaCinematica_12
+    21300026: HadaCinematica_13
+    21300028: HadaCinematica_14
+    21300030: HadaCinematica_15
+    21300032: HadaCinematica_16
+    21300034: HadaCinematica_17
+    21300036: HadaCinematica_18
+    21300038: HadaCinematica_19
+    21300040: HadaCinematica_20
+    21300042: HadaCinematica_21
+    21300044: HadaCinematica_22
+    21300046: HadaCinematica_23
+    21300048: HadaCinematica_24
+    21300050: HadaCinematica_25
+    21300052: HadaCinematica_26
+    21300054: HadaCinematica_27
+    21300056: HadaCinematica_28
+    21300058: HadaCinematica_29
+    21300060: HadaCinematica_30
+    21300062: HadaCinematica_31
+    21300064: HadaCinematica_32
+    21300066: HadaCinematica_33
+    21300068: HadaCinematica_34
+    21300070: HadaCinematica_35
+    21300072: HadaCinematica_36
+    21300074: HadaCinematica_37
+    21300076: HadaCinematica_38
+    21300078: HadaCinematica_39
+    21300080: HadaCinematica_40
+    21300082: HadaCinematica_41
+    21300084: HadaCinematica_42
+    21300086: HadaCinematica_43
+    21300088: HadaCinematica_44
+    21300090: HadaCinematica_45
+    21300092: HadaCinematica_46
+    21300094: HadaCinematica_47
+    21300096: HadaCinematica_48
+    21300098: HadaCinematica_49
+    21300100: HadaCinematica_50
+    21300102: HadaCinematica_51
+    21300104: HadaCinematica_52
+    21300106: HadaCinematica_53
+    21300108: HadaCinematica_54
+    21300110: HadaCinematica_55
+    21300112: HadaCinematica_56
+    21300114: HadaCinematica_57
+    21300116: HadaCinematica_58
+    21300118: HadaCinematica_59
+    21300120: HadaCinematica_60
+    21300122: HadaCinematica_61
+    21300124: HadaCinematica_62
+    21300126: HadaCinematica_63
+    21300128: HadaCinematica_64
+    21300130: HadaCinematica_65
+    21300132: HadaCinematica_66
+    21300134: HadaCinematica_67
+    21300136: HadaCinematica_68
+    21300138: HadaCinematica_69
+    21300140: HadaCinematica_70
+    21300142: HadaCinematica_71
+    21300144: HadaCinematica_72
+    21300146: HadaCinematica_73
+    21300148: HadaCinematica_74
+    21300150: HadaCinematica_75
+    21300152: HadaCinematica_76
+    21300154: HadaCinematica_77
+    21300156: HadaCinematica_78
+    21300158: HadaCinematica_79
+    21300160: HadaCinematica_80
+    21300162: HadaCinematica_81
+    21300164: HadaCinematica_82
+    21300166: HadaCinematica_83
+    21300168: HadaCinematica_84
+    21300170: HadaCinematica_85
+    21300172: HadaCinematica_86
+    21300174: HadaCinematica_87
+    21300176: HadaCinematica_88
+    21300178: HadaCinematica_89
+    21300180: HadaCinematica_90
+    21300182: HadaCinematica_91
+    21300184: HadaCinematica_92
+    21300186: HadaCinematica_93
+    21300188: HadaCinematica_94
+    21300190: HadaCinematica_95
+    21300192: HadaCinematica_96
+    21300194: HadaCinematica_97
+    21300196: HadaCinematica_98
+    21300198: HadaCinematica_99
+    21300200: HadaCinematica_100
+    21300202: HadaCinematica_101
+    21300204: HadaCinematica_102
+    21300206: HadaCinematica_103
+    21300208: HadaCinematica_104
+    21300210: HadaCinematica_105
+    21300212: HadaCinematica_106
+    21300214: HadaCinematica_107
+    21300216: HadaCinematica_108
+    21300218: HadaCinematica_109
+    21300220: HadaCinematica_110
+    21300222: HadaCinematica_111
+    21300224: HadaCinematica_112
+    21300226: HadaCinematica_113
+    21300228: HadaCinematica_114
+    21300230: HadaCinematica_115
+    21300232: HadaCinematica_116
+    21300234: HadaCinematica_117
+    21300236: HadaCinematica_118
+    21300238: HadaCinematica_119
+    21300240: HadaCinematica_120
+    21300242: HadaCinematica_121
+    21300244: HadaCinematica_122
+    21300246: HadaCinematica_123
+    21300248: HadaCinematica_124
+    21300250: HadaCinematica_125
+    21300252: HadaCinematica_126
+    21300254: HadaCinematica_127
+    21300256: HadaCinematica_128
+    21300258: HadaCinematica_129
+    21300260: HadaCinematica_130
+    21300262: HadaCinematica_131
+    21300264: HadaCinematica_132
+    21300266: HadaCinematica_133
+    21300268: HadaCinematica_134
+    21300270: HadaCinematica_135
+    21300272: HadaCinematica_136
+    21300274: HadaCinematica_137
+    21300276: HadaCinematica_138
+    21300278: HadaCinematica_139
+    21300280: HadaCinematica_140
+    21300282: HadaCinematica_141
+    21300284: HadaCinematica_142
+    21300286: HadaCinematica_143
+    21300288: HadaCinematica_144
+    21300290: HadaCinematica_145
+    21300292: HadaCinematica_146
+    21300294: HadaCinematica_147
+    21300296: HadaCinematica_148
+    21300298: HadaCinematica_149
+    21300300: HadaCinematica_150
+    21300302: HadaCinematica_151
+    21300304: HadaCinematica_152
+    21300306: HadaCinematica_153
+    21300308: HadaCinematica_154
+    21300310: HadaCinematica_155
+    21300312: HadaCinematica_156
+    21300314: HadaCinematica_157
+    21300316: HadaCinematica_158
+    21300318: HadaCinematica_159
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HadaCinematica_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 626
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 626
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 626
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 626
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 643
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 641
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 642
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 626
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_8
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 626
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_9
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 626
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_10
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 626
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_11
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 626
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_12
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 643
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_13
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 641
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_14
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 642
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_15
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 626
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 606
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_17
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 604
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 605
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 594
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 594
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_21
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 594
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_22
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 594
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_23
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 604
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_24
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 596
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_25
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 606
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_26
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 604
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_27
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 605
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_28
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 594
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_29
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 594
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_30
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 594
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_31
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 594
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_32
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 604
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_33
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 596
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_34
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 581
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_35
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 562
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_36
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 563
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_37
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 562
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_38
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 562
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_39
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 562
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_40
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 562
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_41
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 564
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_42
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 581
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_43
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 562
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_44
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 563
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_45
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 562
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_46
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 562
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_47
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 562
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_48
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 562
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_49
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 564
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_50
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 514
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_51
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 515
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_52
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 515
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_53
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 515
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_54
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 516
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_55
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 516
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_56
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 514
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_57
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 515
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_58
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 515
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_59
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 515
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_60
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 516
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_61
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 516
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_62
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 467
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_63
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 483
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_64
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 481
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_65
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 482
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_66
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 466
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_67
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 466
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_68
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 466
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_69
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 467
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_70
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 483
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_71
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 481
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_72
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 482
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_73
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 466
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_74
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 466
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_75
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 466
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_76
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 426
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_77
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 442
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_78
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 426
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_79
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 442
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_80
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 338
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_81
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 338
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_82
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 338
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_83
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 338
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_84
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 355
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_85
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 353
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_86
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 354
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_87
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 338
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_88
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 338
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_89
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 338
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_90
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 338
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_91
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 338
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_92
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 355
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_93
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 353
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_94
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 354
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_95
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 338
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_96
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 318
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_97
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 316
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_98
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_99
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 306
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_100
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 306
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_101
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 306
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_102
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 306
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_103
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 316
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_104
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 308
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_105
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 318
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_106
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 316
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_107
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_108
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 306
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_109
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 306
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_110
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 306
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_111
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 306
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_112
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 316
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_113
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 308
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_114
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 293
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_115
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 274
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_116
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 275
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_117
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 274
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_118
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 274
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_119
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 274
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_120
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 274
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_121
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 276
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_122
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 293
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_123
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 274
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_124
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 275
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_125
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 274
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_126
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 274
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_127
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 274
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_128
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 274
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_129
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 276
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_130
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 226
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_131
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 227
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_132
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 227
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_133
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 227
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_134
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 228
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_135
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 228
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_136
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 226
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_137
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 227
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_138
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 227
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_139
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 227
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_140
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 228
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_141
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 228
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_142
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 179
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_143
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 195
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_144
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 193
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_145
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 194
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_146
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 178
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_147
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 178
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_148
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 178
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_149
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 179
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_150
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 195
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_151
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 193
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_152
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 194
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_153
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 178
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_154
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 178
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_155
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 178
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_156
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 138
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_157
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 154
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_158
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 138
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: HadaCinematica_159
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 154
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

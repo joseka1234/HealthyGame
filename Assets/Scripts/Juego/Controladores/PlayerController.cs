@@ -130,6 +130,7 @@ namespace AssemblyCSharp
 
 		private void SetAzucar ()
 		{
+			GameObject.Find ("GameScene/UI/HUD/Marco/NivelAzucar/Text").GetComponent<Text> ().text = azucar.ToString ();
 			if (azucar > 160 || azucar < 75) {
 				BarraAzucar.GetComponent<Image> ().color = Color.red;
 			} else {
