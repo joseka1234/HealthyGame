@@ -18,8 +18,7 @@ public class Conversacion : ElementoCinematica
 	}
 
 	private float TiempoEspera (MensajeConversacion mensaje)
-	{
-		
-		return ((float)mensaje.Texto.Split (new char[]{ ' ' }).Length / 200f) * 60f * 1.8f;
+	{	
+		return ((float)mensaje.Texto.Split (new char[]{ ' ' }).Length / 200f) * 60f * 1.5f;
 	}
 }

@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\Juego\Controladores\ControladorTexto.cs" />
      <Compile Include="Assets\Scripts\Juego\Controladores\DetectorSuelo.cs" />
      <Compile Include="Assets\Scripts\Juego\Controladores\FuncionesComunes.cs" />
+     <Compile Include="Assets\Scripts\Juego\Controladores\InformacionJuego.cs" />
      <Compile Include="Assets\Scripts\Juego\Controladores\Mapa\Coleccionable.cs" />
      <Compile Include="Assets\Scripts\Juego\Controladores\Mapa\Destructible.cs" />
      <Compile Include="Assets\Scripts\Juego\Controladores\Mapa\Mensaje.cs" />

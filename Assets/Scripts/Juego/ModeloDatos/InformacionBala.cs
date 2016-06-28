@@ -13,6 +13,11 @@ namespace AssemblyCSharp
 
 		public float azucar = 0;
 
+		void Update ()
+		{
+			this.transform.Rotate (Vector3.back * 5);
+		}
+
 		void OnTriggerEnter2D (Collider2D other)
 		{
 			if (SePuedeChocar (other.tag)) {

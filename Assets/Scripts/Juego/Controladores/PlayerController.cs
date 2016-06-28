@@ -76,6 +76,7 @@ namespace AssemblyCSharp
 		void Awake ()
 		{
 			animaciones = GetComponent<Animator> ();
+			InformacionJuego.Instancia.Inicializar ();
 		}
 
 		// Use this for initialization

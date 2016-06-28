@@ -1,6 +1,37 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Juego\Cinematica\Conversacion.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Juego\Controladores\Mapa\Coleccionable.cs" Line="14" Column="3" />
+      <File FileName="Assets\Scripts\Juego\Controladores\InformacionJuego.cs" Line="34" Column="50" />
+      <File FileName="Assets\Scripts\Juego\Controladores\PlayerController.cs" Line="256" Column="35" />
+      <File FileName="Assets\Scripts\Juego\Animaciones\TerminarAnimacion.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Juego\ModeloDatos\InformacionBala.cs" Line="18" Column="43" />
+      <File FileName="Assets\Scripts\Juego\Cinematica\Conversacion.cs" Line="23" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HealthyGame" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Juego" expanded="True">
+                  <Node name="Animaciones" expanded="True" />
+                  <Node name="Cinematica" expanded="True">
+                    <Node name="Conversacion.cs" selected="True" />
+                  </Node>
+                  <Node name="Controladores" expanded="True">
+                    <Node name="Mapa" expanded="True" />
+                  </Node>
+                  <Node name="ModeloDatos" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,0 +1,1149 @@
+fileFormatVersion: 2
+guid: ccd57f4a529a8194eb8be0a0f4b7fc57
+timeCreated: 1467128978
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Comida2_0
+    21300002: Comida2_1
+    21300004: Comida2_2
+    21300006: Comida2_4
+    21300008: Comida2_5
+    21300010: Comida2_6
+    21300012: Comida2_7
+    21300014: Comida2_8
+    21300016: Comida2_9
+    21300018: Comida2_10
+    21300020: Comida2_11
+    21300022: Comida2_12
+    21300024: Comida2_13
+    21300026: Comida2_14
+    21300028: Comida2_15
+    21300030: Comida2_16
+    21300032: Comida2_17
+    21300034: Comida2_18
+    21300036: Comida2_19
+    21300038: Comida2_20
+    21300040: Comida2_21
+    21300042: Comida2_22
+    21300044: Comida2_23
+    21300046: Comida2_24
+    21300048: Comida2_25
+    21300050: Comida2_26
+    21300052: Comida2_27
+    21300054: Comida2_28
+    21300056: Comida2_29
+    21300058: Comida2_30
+    21300060: Comida2_31
+    21300062: Comida2_32
+    21300064: Comida2_33
+    21300066: Comida2_34
+    21300068: Comida2_35
+    21300070: Comida2_36
+    21300072: Comida2_37
+    21300074: Comida2_38
+    21300076: Comida2_39
+    21300078: Comida2_40
+    21300080: Comida2_41
+    21300082: Comida2_42
+    21300084: Comida2_43
+    21300086: Comida2_44
+    21300088: Comida2_45
+    21300090: Comida2_46
+    21300092: Comida2_47
+    21300094: Comida2_48
+    21300096: Comida2_49
+    21300098: Comida2_50
+    21300100: Comida2_51
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Comida2_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 588
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -27.5}
+        - {x: 22, y: -25.5}
+        - {x: 19, y: -24.5}
+        - {x: 17, y: -27.5}
+      - - {x: -30, y: 13.5}
+        - {x: -30, y: -5.5}
+        - {x: 20, y: -27.5}
+        - {x: 30, y: -27.5}
+        - {x: 30, y: 5.5}
+        - {x: 15, y: 27.5}
+        - {x: -11, y: 27.5}
+        - {x: -27, y: 24.5}
+      - - {x: -9, y: -13.5}
+        - {x: -6, y: -12.5}
+        - {x: -6, y: -9.5}
+        - {x: -9, y: -8.5}
+        - {x: -11, y: -10.5}
+      - - {x: 26, y: 1.5}
+        - {x: 26, y: 0.5}
+        - {x: 29, y: -2.5}
+        - {x: 30, y: -2.5}
+        - {x: 30, y: 3.5}
+        - {x: 28, y: 3.5}
+    - name: Comida2_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 588
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 28}
+        - {x: -4, y: 28}
+        - {x: -24, y: 23}
+        - {x: -28, y: 15}
+        - {x: -28, y: -21}
+        - {x: -21, y: -28}
+        - {x: 21, y: -28}
+        - {x: 24, y: -27}
+        - {x: 28, y: -24}
+        - {x: 28, y: 8}
+        - {x: 25, y: 23}
+    - name: Comida2_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 588
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 28}
+        - {x: -28.5, y: 20}
+        - {x: -28.5, y: -19}
+        - {x: -26.5, y: -25}
+        - {x: -15.5, y: -28}
+        - {x: 11.5, y: -28}
+        - {x: 28.5, y: -14}
+        - {x: 28.5, y: 14}
+        - {x: 18.5, y: 28}
+    - name: Comida2_4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 588
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 28}
+        - {x: -30.5, y: 23}
+        - {x: -30.5, y: -30}
+        - {x: 30.5, y: -30}
+        - {x: 30.5, y: 18}
+        - {x: 7.5, y: 28}
+      - - {x: -17.5, y: 30}
+        - {x: -17.5, y: 28}
+        - {x: -15.5, y: 26}
+        - {x: -13.5, y: 26}
+        - {x: -11.5, y: 28}
+        - {x: -12.5, y: 30}
+    - name: Comida2_5
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 588
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 23}
+        - {x: -16.5, y: 23}
+        - {x: -28.5, y: 11}
+        - {x: -28.5, y: -18}
+        - {x: -20.5, y: -23}
+        - {x: 19.5, y: -23}
+        - {x: 22.5, y: -22}
+        - {x: 28.5, y: -15}
+        - {x: 28.5, y: 16}
+    - name: Comida2_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 524
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 28}
+        - {x: -29, y: 17}
+        - {x: -29, y: -28}
+        - {x: 29, y: -28}
+        - {x: 29, y: 11}
+        - {x: 22, y: 28}
+    - name: Comida2_7
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 524
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 28}
+        - {x: -28, y: 3}
+        - {x: -28, y: -21}
+        - {x: -26, y: -28}
+        - {x: 6, y: -28}
+        - {x: 28, y: -9}
+        - {x: 28, y: 23}
+        - {x: 14, y: 28}
+      - - {x: 20, y: -11}
+        - {x: 21, y: -14}
+        - {x: 24, y: -14}
+        - {x: 26, y: -12}
+        - {x: 25, y: -9}
+        - {x: 22, y: -9}
+    - name: Comida2_8
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 524
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 28}
+        - {x: -28, y: 18}
+        - {x: -28, y: -26}
+        - {x: -24, y: -28}
+        - {x: 28, y: -28}
+        - {x: 28, y: 25}
+        - {x: 27, y: 28}
+    - name: Comida2_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 524
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 28}
+        - {x: -29, y: 4}
+        - {x: -29, y: -28}
+        - {x: 12, y: -28}
+        - {x: 29, y: 2}
+        - {x: 29, y: 28}
+      - - {x: 8, y: -28}
+        - {x: 12, y: -28}
+        - {x: 12, y: -25}
+        - {x: 9, y: -24}
+        - {x: 7, y: -26}
+    - name: Comida2_10
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 524
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 28.5}
+        - {x: -29.5, y: 25.5}
+        - {x: -29.5, y: -11.5}
+        - {x: -25.5, y: -17.5}
+        - {x: -19.5, y: -25.5}
+        - {x: -15.5, y: -28.5}
+        - {x: 25.5, y: -28.5}
+        - {x: 29.5, y: -27.5}
+        - {x: 29.5, y: 23.5}
+        - {x: 25.5, y: 28.5}
+    - name: Comida2_11
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 460
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 22.5}
+        - {x: -8, y: 22.5}
+        - {x: -21, y: 19.5}
+        - {x: -29, y: 2.5}
+        - {x: -29, y: -20.5}
+        - {x: -28, y: -22.5}
+        - {x: 24, y: -22.5}
+        - {x: 29, y: -20.5}
+        - {x: 29, y: -4.5}
+        - {x: 21, y: 13.5}
+    - name: Comida2_12
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 455
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 30.5}
+        - {x: -26, y: 30.5}
+        - {x: -28, y: 26.5}
+        - {x: -28, y: -2.5}
+        - {x: -4, y: -30.5}
+        - {x: 22, y: -30.5}
+        - {x: 28, y: -25.5}
+        - {x: 28, y: -0.5}
+        - {x: 27, y: 3.5}
+      - - {x: -19, y: -20.5}
+        - {x: -15, y: -23.5}
+        - {x: -12, y: -23.5}
+        - {x: -12, y: -19.5}
+        - {x: -14, y: -15.5}
+        - {x: -18, y: -15.5}
+        - {x: -20, y: -17.5}
+      - - {x: 24, y: -2.5}
+        - {x: 27, y: -1.5}
+        - {x: 27, y: 1.5}
+        - {x: 24, y: 2.5}
+        - {x: 22, y: 0.5}
+    - name: Comida2_13
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 460
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 28.5}
+        - {x: -29, y: 23.5}
+        - {x: -29, y: -28.5}
+        - {x: 29, y: -28.5}
+        - {x: 29, y: 15.5}
+        - {x: 21, y: 28.5}
+    - name: Comida2_14
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 460
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 28}
+        - {x: -28.5, y: 26}
+        - {x: -28.5, y: -20}
+        - {x: -27.5, y: -26}
+        - {x: -12.5, y: -28}
+        - {x: 28.5, y: -28}
+        - {x: 28.5, y: 15}
+        - {x: 23.5, y: 28}
+    - name: Comida2_15
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 460
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: -28}
+        - {x: 1, y: -28}
+        - {x: 1, y: -25}
+        - {x: -2, y: -24}
+        - {x: -4, y: -26}
+      - - {x: -29, y: 28}
+        - {x: -29, y: -10}
+        - {x: -10, y: -22}
+        - {x: -1, y: -28}
+        - {x: 29, y: -28}
+        - {x: 29, y: 4}
+        - {x: -7, y: 28}
+    - name: Comida2_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 396
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 28}
+        - {x: -2, y: 28}
+        - {x: -8, y: 22}
+        - {x: -8, y: 17}
+        - {x: -8, y: 26}
+        - {x: -9, y: 28}
+        - {x: -28, y: 28}
+        - {x: -28, y: -27}
+        - {x: -24, y: -28}
+        - {x: 17, y: -28}
+        - {x: 21, y: -27}
+        - {x: 28, y: -18}
+        - {x: 28, y: 3}
+    - name: Comida2_17
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 396
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 29}
+        - {x: -27, y: 29}
+        - {x: -27, y: -2}
+        - {x: -21, y: -28}
+        - {x: -19, y: -29}
+        - {x: 10, y: -29}
+        - {x: 13, y: -28}
+        - {x: 18, y: -11}
+        - {x: 27, y: 10}
+    - name: Comida2_18
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 396
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28.5, y: 28}
+        - {x: -28.5, y: -28}
+        - {x: 0.5, y: -28}
+        - {x: 28.5, y: -20}
+        - {x: 28.5, y: 27}
+        - {x: 24.5, y: 28}
+    - name: Comida2_19
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 396
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 28}
+        - {x: -28, y: 28}
+        - {x: -28, y: -19}
+        - {x: -6, y: -28}
+        - {x: 27, y: -28}
+        - {x: 28, y: -27}
+        - {x: 28, y: 6}
+        - {x: 17, y: 27}
+      - - {x: 24, y: 8}
+        - {x: 27, y: 9}
+        - {x: 27, y: 12}
+        - {x: 24, y: 13}
+        - {x: 22, y: 11}
+    - name: Comida2_20
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 396
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 28}
+        - {x: -26, y: 28}
+        - {x: -30, y: 12}
+        - {x: -30, y: -24}
+        - {x: -23, y: -28}
+        - {x: 10, y: -28}
+        - {x: 30, y: -21}
+        - {x: 30, y: 15}
+        - {x: 27, y: 26}
+    - name: Comida2_21
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 332
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 28}
+        - {x: -28, y: 0}
+        - {x: -3, y: -26}
+        - {x: 6, y: -28}
+        - {x: 28, y: -28}
+        - {x: 28, y: 5}
+        - {x: -1, y: 28}
+    - name: Comida2_22
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 332
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 28}
+        - {x: -28, y: -15}
+        - {x: -25, y: -28}
+        - {x: 28, y: -28}
+        - {x: 28, y: 12}
+        - {x: 15, y: 28}
+    - name: Comida2_23
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 332
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 28}
+        - {x: -28, y: 20}
+        - {x: -28, y: -22}
+        - {x: -25, y: -28}
+        - {x: 20, y: -28}
+        - {x: 28, y: -21}
+        - {x: 28, y: 28}
+    - name: Comida2_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 332
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 28}
+        - {x: -28, y: -25}
+        - {x: -18, y: -28}
+        - {x: 28, y: -28}
+        - {x: 28, y: 16}
+        - {x: 24, y: 28}
+    - name: Comida2_25
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 332
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 29}
+        - {x: -28, y: 19}
+        - {x: -28, y: -29}
+        - {x: 27, y: -29}
+        - {x: 28, y: -26}
+        - {x: 28, y: 15}
+        - {x: -1, y: 29}
+      - - {x: 24, y: -29}
+        - {x: 28, y: -29}
+        - {x: 28, y: -27}
+        - {x: 26, y: -26}
+      - - {x: 8, y: 16}
+        - {x: 11, y: 17}
+        - {x: 11, y: 20}
+        - {x: 8, y: 21}
+        - {x: 6, y: 19}
+    - name: Comida2_26
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 268
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 28}
+        - {x: -29, y: 19}
+        - {x: -29, y: -24}
+        - {x: -27, y: -28}
+        - {x: 25, y: -28}
+        - {x: 29, y: -27}
+        - {x: 29, y: 22}
+        - {x: 17, y: 28}
+    - name: Comida2_27
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 268
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 28}
+        - {x: -20.5, y: -25}
+        - {x: -12.5, y: -28}
+        - {x: 18.5, y: -28}
+        - {x: 20.5, y: -25}
+        - {x: 20.5, y: 28}
+    - name: Comida2_28
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 268
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 28}
+        - {x: -28.5, y: 26}
+        - {x: -28.5, y: -25}
+        - {x: -22.5, y: -28}
+        - {x: 24.5, y: -28}
+        - {x: 28.5, y: -19}
+        - {x: 28.5, y: 28}
+    - name: Comida2_29
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 268
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 28}
+        - {x: -28, y: 15}
+        - {x: -28, y: -24}
+        - {x: -16, y: -28}
+        - {x: 18, y: -28}
+        - {x: 28, y: -20}
+        - {x: 28, y: 18}
+        - {x: 18, y: 28}
+    - name: Comida2_30
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 267
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 28.5}
+        - {x: -28, y: 28.5}
+        - {x: -29, y: 27.5}
+        - {x: -29, y: -17.5}
+        - {x: -22, y: -28.5}
+        - {x: 22, y: -28.5}
+        - {x: 29, y: -26.5}
+        - {x: 29, y: 9.5}
+        - {x: 26, y: 19.5}
+    - name: Comida2_31
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 204
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 28}
+        - {x: -30.5, y: -28}
+        - {x: 30.5, y: -28}
+        - {x: 30.5, y: 23}
+        - {x: 24.5, y: 28}
+    - name: Comida2_32
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 204
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 28}
+        - {x: -28, y: 27}
+        - {x: -28, y: -28}
+        - {x: 28, y: -28}
+        - {x: 28, y: 28}
+    - name: Comida2_33
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 204
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 25}
+        - {x: -28, y: -25}
+        - {x: 14, y: -25}
+        - {x: 22, y: -23}
+        - {x: 28, y: -3}
+        - {x: 28, y: 25}
+    - name: Comida2_34
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 204
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 28}
+        - {x: -15.5, y: 28}
+        - {x: -27.5, y: 19}
+        - {x: -27.5, y: -15}
+        - {x: -18.5, y: -28}
+        - {x: 21.5, y: -28}
+        - {x: 27.5, y: -23}
+        - {x: 27.5, y: 1}
+        - {x: 21.5, y: 19}
+    - name: Comida2_35
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 204
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 28}
+        - {x: -28, y: -28}
+        - {x: 26, y: -28}
+        - {x: 28, y: -26}
+        - {x: 28, y: 18}
+        - {x: 17, y: 28}
+      - - {x: -25, y: -21}
+        - {x: -22, y: -20}
+        - {x: -22, y: -17}
+        - {x: -25, y: -16}
+        - {x: -27, y: -18}
+    - name: Comida2_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 140
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 28}
+        - {x: -27, y: 21}
+        - {x: -28, y: 14}
+        - {x: -28, y: -22}
+        - {x: -21, y: -28}
+        - {x: 20, y: -28}
+        - {x: 28, y: -17}
+        - {x: 28, y: 27}
+        - {x: 26, y: 28}
+      - - {x: 20, y: -28}
+        - {x: 24, y: -28}
+        - {x: 24, y: -25}
+        - {x: 21, y: -24}
+        - {x: 19, y: -26}
+    - name: Comida2_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 140
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 28}
+        - {x: -24, y: 23}
+        - {x: -24, y: -30}
+        - {x: 20, y: -30}
+        - {x: 20, y: 28}
+      - - {x: 20, y: -8}
+        - {x: 20, y: -9}
+        - {x: 22, y: -11}
+        - {x: 24, y: -10}
+        - {x: 24, y: -5}
+        - {x: 23, y: -5}
+      - - {x: -19, y: 28}
+        - {x: -19, y: 30}
+        - {x: -24, y: 30}
+        - {x: -22, y: 27}
+    - name: Comida2_38
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 140
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 22}
+        - {x: -28, y: 22}
+        - {x: -28, y: -22}
+        - {x: 20, y: -22}
+        - {x: 28, y: -17}
+        - {x: 28, y: 11}
+    - name: Comida2_39
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 139
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24, y: -14.5}
+        - {x: 24, y: -3.5}
+        - {x: 26, y: -2.5}
+        - {x: 26, y: 26.5}
+        - {x: 25, y: 28.5}
+        - {x: -26, y: 28.5}
+        - {x: -26, y: -26.5}
+        - {x: -24, y: -28.5}
+        - {x: 26, y: -28.5}
+        - {x: 26, y: -15.5}
+        - {x: 23, y: -13.5}
+    - name: Comida2_40
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 140
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Comida2_41
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 140
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 28}
+        - {x: -19, y: -11}
+        - {x: -15, y: -28}
+        - {x: 17, y: -28}
+        - {x: 19, y: -27}
+        - {x: 19, y: 28}
+    - name: Comida2_42
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 76
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 28}
+        - {x: -29, y: 14}
+        - {x: -29, y: -28}
+        - {x: 29, y: -28}
+        - {x: 29, y: 10}
+        - {x: 17, y: 28}
+    - name: Comida2_43
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 76
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 28}
+        - {x: -28, y: 24}
+        - {x: -28, y: -27}
+        - {x: -25, y: -28}
+        - {x: 16, y: -28}
+        - {x: 28, y: -17}
+        - {x: 28, y: 23}
+        - {x: 18, y: 28}
+      - - {x: 16, y: -28}
+        - {x: 20, y: -28}
+        - {x: 20, y: -25}
+        - {x: 17, y: -24}
+        - {x: 15, y: -26}
+    - name: Comida2_44
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 76
+        width: 57
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 17}
+        - {x: -25.5, y: 10}
+        - {x: -28.5, y: 6}
+        - {x: -28.5, y: -17}
+        - {x: 23.5, y: -17}
+        - {x: 28.5, y: -9}
+        - {x: 28.5, y: 17}
+      - - {x: 25.5, y: -8}
+        - {x: 27.5, y: -10}
+        - {x: 28.5, y: -10}
+        - {x: 28.5, y: -5}
+        - {x: 26.5, y: -5}
+    - name: Comida2_45
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 76
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 28}
+        - {x: -30.5, y: 23}
+        - {x: -30.5, y: -1}
+        - {x: -24.5, y: -28}
+        - {x: 16.5, y: -28}
+        - {x: 30.5, y: 0}
+        - {x: 30.5, y: 28}
+    - name: Comida2_46
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 76
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 28}
+        - {x: -29, y: 23}
+        - {x: -29, y: -25}
+        - {x: -28, y: -28}
+        - {x: 20, y: -28}
+        - {x: 29, y: -18}
+        - {x: 29, y: 28}
+    - name: Comida2_47
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 12
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -28}
+        - {x: -6, y: -28}
+        - {x: -6, y: -25}
+        - {x: -9, y: -24}
+        - {x: -11, y: -26}
+      - - {x: -16, y: 28}
+        - {x: -28, y: 16}
+        - {x: -28, y: -4}
+        - {x: -2, y: -28}
+        - {x: 27, y: -28}
+        - {x: 28, y: -24}
+        - {x: 28, y: 9}
+        - {x: 1, y: 28}
+      - - {x: -17, y: -21}
+        - {x: -14, y: -20}
+        - {x: -14, y: -17}
+        - {x: -17, y: -16}
+        - {x: -19, y: -18}
+    - name: Comida2_48
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 12
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: 24}
+        - {x: -22, y: 24}
+        - {x: -29, y: 8}
+        - {x: -29, y: -16}
+        - {x: -22, y: -24}
+        - {x: 28, y: -24}
+        - {x: 29, y: -16}
+        - {x: 29, y: 13}
+    - name: Comida2_49
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 12
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 28}
+        - {x: -28, y: 25}
+        - {x: -28, y: -11}
+        - {x: -22, y: -28}
+        - {x: 28, y: -28}
+        - {x: 28, y: 7}
+        - {x: 9, y: 28}
+    - name: Comida2_50
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 12
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 28}
+        - {x: -28, y: 5}
+        - {x: -2, y: -19}
+        - {x: 17, y: -28}
+        - {x: 28, y: -28}
+        - {x: 28, y: -13}
+        - {x: 2, y: 28}
+    - name: Comida2_51
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 12
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 28}
+        - {x: -28.5, y: 15}
+        - {x: -28.5, y: -22}
+        - {x: -27.5, y: -28}
+        - {x: 27.5, y: -28}
+        - {x: 28.5, y: -23}
+        - {x: 28.5, y: 20}
+        - {x: 18.5, y: 28}
+    outline: []
+  spritePackingTag: Comida
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

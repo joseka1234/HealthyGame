@@ -5,7 +5,15 @@ public class Coleccionable : MonoBehaviour
 {
 
 	public float VelocidadDeGiro = 2f;
-	public float AzucarProporcionado = 10f;
+
+	public string NombreComida = "Naranja";
+
+	private float AzucarProporcionado { get; set; }
+
+	void Start ()
+	{
+		AzucarProporcionado = InformacionJuego.Instancia.HidratosDeCarbono [NombreComida.ToLower ()];
+	}
 
 	void Update ()
 	{
@@ -17,7 +25,6 @@ public class Coleccionable : MonoBehaviour
 		if (other.tag == "Player") {
 			PlayerController controlador = GameObject.Find (PlayerController.PLAYER).GetComponent<PlayerController> ();
 			controlador.azucar += AzucarProporcionado;
-
 			Destroy (this.gameObject);
 		}
 	}
