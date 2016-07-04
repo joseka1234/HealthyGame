@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Common\EscenaActual.cs" />
      <Compile Include="Assets\Scripts\Common\NoDestruir.cs" />
+     <Compile Include="Assets\Scripts\Creditos\ControlCreditos.cs" />
      <Compile Include="Assets\Scripts\Juego\Animaciones\ContinuarCiclo.cs" />
      <Compile Include="Assets\Scripts\Juego\Animaciones\ContinuarCorriendo.cs" />
      <Compile Include="Assets\Scripts\Juego\Animaciones\TerminarAnimacion.cs" />
@@ -80,6 +81,7 @@
      <Compile Include="Assets\Scripts\Juego\IA\JefeMundo1.cs" />
      <Compile Include="Assets\Scripts\Juego\ModeloDatos\InformacionBala.cs" />
      <Compile Include="Assets\Scripts\Juego\ModeloDatos\Texto.cs" />
+     <Compile Include="Assets\Scripts\MenuPrincipal\Botones.cs" />
      <Compile Include="Assets\Scripts\Minijuegos\Insulina\ControladorMinijuegoInsulina.cs" />
      <Compile Include="Assets\Scripts\Minijuegos\MedirAzucar\Pinchazo.cs" />
      <Compile Include="Assets\Scripts\Minijuegos\MedirAzucar\Tira.cs" />

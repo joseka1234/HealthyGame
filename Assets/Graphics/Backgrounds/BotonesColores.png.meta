@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 6e9878f60a8ab0c47b35f35b9082b670
+timeCreated: 1467662659
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BotonesColores_0
+    21300002: BotonesColores_1
+    21300004: BotonesColores_2
+    21300006: BotonesColores_3
+    21300008: BotonesColores_4
+    21300010: BotonesColores_5
+    21300012: BotonesColores_6
+    21300014: BotonesColores_7
+    21300016: BotonesColores_8
+    21300018: BotonesColores_9
+    21300020: BotonesColores_10
+    21300022: BotonesColores_11
+    21300024: BotonesColores_12
+    21300026: BotonesColores_13
+    21300028: BotonesColores_14
+    21300030: BotonesColores_15
+    21300032: BotonesColores_16
+    21300034: BotonesColores_17
+    21300036: BotonesColores_18
+    21300038: BotonesColores_19
+    21300040: BotonesColores_20
+    21300042: BotonesColores_21
+    21300044: BotonesColores_22
+    21300046: BotonesColores_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BotonesColores_0
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1398
+        width: 365
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.13018, y: 43.2594}
+        - {x: -112.13018, y: -36.7406}
+        - {x: -49.13018, y: -41.7406}
+        - {x: 78.86982, y: -41.7406}
+        - {x: 113.86982, y: -39.7406}
+        - {x: 113.86982, y: 43.2594}
+    - name: BotonesColores_1
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1400
+        width: 366
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -110.805664, y: 42.987976}
+        - {x: -112.805664, y: 40.987976}
+        - {x: -112.805664, y: -35.012024}
+        - {x: -108.805664, y: -41.012024}
+        - {x: 97.194336, y: -41.012024}
+        - {x: 113.194336, y: -40.012024}
+        - {x: 113.194336, y: 42.987976}
+    - name: BotonesColores_2
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1398
+        width: 366
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -109.43823, y: 42.7594}
+        - {x: -112.43823, y: 39.7594}
+        - {x: -112.43823, y: -34.2406}
+        - {x: -94.43823, y: -41.2406}
+        - {x: 112.56177, y: -41.2406}
+        - {x: 112.56177, y: 40.7594}
+        - {x: 97.56177, y: 42.7594}
+    - name: BotonesColores_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1229
+        width: 365
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.13018, y: 42.946594}
+        - {x: -112.13018, y: -36.053406}
+        - {x: -111.13018, y: -37.053406}
+        - {x: -66.13018, y: -41.053406}
+        - {x: 73.86982, y: -41.053406}
+        - {x: 113.86982, y: -39.053406}
+        - {x: 113.86982, y: 42.946594}
+    - name: BotonesColores_4
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1231
+        width: 365
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -110.191376, y: 41.17511}
+        - {x: -112.191376, y: 39.17511}
+        - {x: -112.191376, y: -36.82489}
+        - {x: -109.191376, y: -40.82489}
+        - {x: 113.808624, y: -40.82489}
+        - {x: 113.808624, y: 41.17511}
+    - name: BotonesColores_5
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1231
+        width: 366
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.43823, y: -21.82489}
+        - {x: -103.43823, y: -40.82489}
+        - {x: 91.56177, y: -40.82489}
+        - {x: 112.56177, y: -35.82489}
+        - {x: 112.56177, y: 38.17511}
+        - {x: 111.56177, y: 41.17511}
+        - {x: -102.43823, y: 41.17511}
+        - {x: -112.43823, y: 32.17511}
+    - name: BotonesColores_6
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1060
+        width: 365
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.13018, y: 41.133728}
+        - {x: -112.13018, y: -37.866272}
+        - {x: -86.13018, y: -40.866272}
+        - {x: 70.86982, y: -40.866272}
+        - {x: 112.86982, y: -37.866272}
+        - {x: 113.86982, y: -36.866272}
+        - {x: 113.86982, y: 41.133728}
+    - name: BotonesColores_7
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1060
+        width: 365
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -110.191376, y: 41.133728}
+        - {x: -112.191376, y: 40.133728}
+        - {x: -112.191376, y: -35.866272}
+        - {x: -108.191376, y: -39.866272}
+        - {x: -101.191376, y: -40.866272}
+        - {x: 91.808624, y: -40.866272}
+        - {x: 113.808624, y: -36.866272}
+        - {x: 113.808624, y: 41.133728}
+    - name: BotonesColores_8
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1061
+        width: 366
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -109.43823, y: 41.748047}
+        - {x: -112.43823, y: 32.748047}
+        - {x: -112.43823, y: -19.251953}
+        - {x: -100.43823, y: -33.251953}
+        - {x: -82.43823, y: -40.251953}
+        - {x: 87.56177, y: -40.251953}
+        - {x: 112.56177, y: -34.251953}
+        - {x: 112.56177, y: 41.748047}
+    - name: BotonesColores_9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 889
+        width: 365
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.13018, y: 41.092346}
+        - {x: -112.13018, y: -38.907654}
+        - {x: -73.13018, y: -40.907654}
+        - {x: 77.86982, y: -40.907654}
+        - {x: 112.86982, y: -37.907654}
+        - {x: 113.86982, y: -36.907654}
+        - {x: 113.86982, y: 41.092346}
+    - name: BotonesColores_10
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 890
+        width: 365
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.191376, y: 41.706665}
+        - {x: -112.191376, y: -39.293335}
+        - {x: -103.191376, y: -40.293335}
+        - {x: 94.808624, y: -40.293335}
+        - {x: 107.808624, y: -39.293335}
+        - {x: 113.808624, y: -38.293335}
+        - {x: 113.808624, y: 41.706665}
+    - name: BotonesColores_11
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 892
+        width: 366
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -99.43823, y: 41.43518}
+        - {x: -112.43823, y: 34.43518}
+        - {x: -112.43823, y: -32.56482}
+        - {x: -110.43823, y: -39.56482}
+        - {x: 98.56177, y: -39.56482}
+        - {x: 112.56177, y: -27.56482}
+        - {x: 112.56177, y: 27.43518}
+        - {x: 105.56177, y: 41.43518}
+    - name: BotonesColores_12
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 720
+        width: 365
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.13018, y: 41.27954}
+        - {x: -112.13018, y: -37.72046}
+        - {x: -84.13018, y: -40.72046}
+        - {x: 85.86982, y: -40.72046}
+        - {x: 113.86982, y: -38.72046}
+        - {x: 113.86982, y: 41.27954}
+    - name: BotonesColores_13
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 721
+        width: 365
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.191376, y: 41.8938}
+        - {x: -112.191376, y: -34.1062}
+        - {x: -106.191376, y: -39.1062}
+        - {x: -90.191376, y: -40.1062}
+        - {x: 91.808624, y: -40.1062}
+        - {x: 107.808624, y: -39.1062}
+        - {x: 113.808624, y: -34.1062}
+        - {x: 113.808624, y: 41.8938}
+    - name: BotonesColores_14
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 721
+        width: 366
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100.43823, y: 41.8938}
+        - {x: -112.43823, y: 34.8938}
+        - {x: -112.43823, y: -40.1062}
+        - {x: 99.56177, y: -40.1062}
+        - {x: 112.56177, y: -27.106201}
+        - {x: 112.56177, y: 28.893799}
+        - {x: 106.56177, y: 41.8938}
+    - name: BotonesColores_15
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 550
+        width: 365
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.13018, y: 41.852417}
+        - {x: -112.13018, y: -38.147583}
+        - {x: -77.13018, y: -40.147583}
+        - {x: 82.86982, y: -40.147583}
+        - {x: 112.86982, y: -37.147583}
+        - {x: 113.86982, y: -36.147583}
+        - {x: 113.86982, y: 41.852417}
+    - name: BotonesColores_16
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 550
+        width: 365
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.191376, y: 41.852417}
+        - {x: -112.191376, y: -40.147583}
+        - {x: 113.808624, y: -40.147583}
+        - {x: 113.808624, y: 41.852417}
+    - name: BotonesColores_17
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 550
+        width: 366
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -104.43823, y: 41.852417}
+        - {x: -112.43823, y: 40.852417}
+        - {x: -112.43823, y: -19.147583}
+        - {x: -109.43823, y: -22.147583}
+        - {x: -86.43823, y: -40.147583}
+        - {x: 101.56177, y: -40.147583}
+        - {x: 112.56177, y: -32.147583}
+        - {x: 112.56177, y: 41.852417}
+    - name: BotonesColores_18
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 379
+        width: 365
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.13018, y: 42.811035}
+        - {x: -112.13018, y: -37.188965}
+        - {x: -111.13018, y: -37.188965}
+        - {x: -75.13018, y: -41.188965}
+        - {x: 89.86982, y: -41.188965}
+        - {x: 113.86982, y: -40.188965}
+        - {x: 113.86982, y: 42.811035}
+    - name: BotonesColores_19
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 379
+        width: 365
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.191376, y: 42.811035}
+        - {x: -112.191376, y: -41.188965}
+        - {x: 100.808624, y: -41.188965}
+        - {x: 109.808624, y: -40.188965}
+        - {x: 113.808624, y: -39.188965}
+        - {x: 113.808624, y: 42.811035}
+    - name: BotonesColores_20
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 379
+        width: 366
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 90.56177, y: 42.811035}
+        - {x: -89.43823, y: 42.811035}
+        - {x: -108.43823, y: 30.811035}
+        - {x: -112.43823, y: 24.811035}
+        - {x: -112.43823, y: -21.188965}
+        - {x: -104.43823, y: -41.188965}
+        - {x: 97.56177, y: -41.188965}
+        - {x: 112.56177, y: -26.188965}
+        - {x: 112.56177, y: 24.811035}
+        - {x: 108.56177, y: 30.811035}
+    - name: BotonesColores_21
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 207
+        width: 365
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.13018, y: 42.155365}
+        - {x: -112.13018, y: -40.844635}
+        - {x: -99.13018, y: -41.844635}
+        - {x: 83.86982, y: -41.844635}
+        - {x: 113.86982, y: -40.844635}
+        - {x: 113.86982, y: 42.155365}
+    - name: BotonesColores_22
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 208
+        width: 365
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -112.191376, y: 42.769638}
+        - {x: -112.191376, y: -37.230362}
+        - {x: -109.191376, y: -41.230362}
+        - {x: 113.808624, y: -41.230362}
+        - {x: 113.808624, y: 42.769638}
+    - name: BotonesColores_23
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 210
+        width: 366
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -106.43823, y: 42.4982}
+        - {x: -112.43823, y: 31.4982}
+        - {x: -112.43823, y: -29.5018}
+        - {x: -86.43823, y: -40.5018}
+        - {x: 68.56177, y: -40.5018}
+        - {x: 112.56177, y: -33.5018}
+        - {x: 112.56177, y: 42.4982}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

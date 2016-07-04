@@ -20,6 +20,9 @@ namespace AssemblyCSharp
 		public const string HUD = "GameScene/UI/HUD";
 		public const string PLAYER = "GameScene/Player";
 
+		public const float CONSTANTE_VELOCIDAD = 8;
+		public const float CONSTANTE_AGARRE = 3;
+
 		public const float MAX_AZUCAR = 250;
 		public const float MIN_AZUCAR = 20;
 
@@ -327,7 +330,7 @@ namespace AssemblyCSharp
 				face = false;
 				RotarObjeto (transform.gameObject);
 			}
-			body.AddForce (Vector2.left * Velocidad * 8);
+			body.AddForce (Vector2.left * Velocidad * CONSTANTE_VELOCIDAD);
 		}
 
 		/// <summary>
@@ -340,8 +343,7 @@ namespace AssemblyCSharp
 				face = true;
 				RotarObjeto (transform.gameObject);
 			}
-			body.AddForce (Vector2.right * Velocidad * 8);
-			// body.velocity = new Vector2 (Velocidad, body.velocity.y);
+			body.AddForce (Vector2.right * Velocidad * CONSTANTE_VELOCIDAD);
 		}
 
 		/// <summary>
@@ -418,7 +420,7 @@ namespace AssemblyCSharp
 			if (other.tag == "Escalera") {
 				body.gravityScale = 0;
 				frenteAEscalera = true;
-				body.drag = agarre * 3;
+				body.drag = agarre * CONSTANTE_AGARRE;
 				SetIDLE ();
 			}
 		}
